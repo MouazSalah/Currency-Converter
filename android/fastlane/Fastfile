@@ -1,0 +1,74 @@
+
+default_platform(:android)
+
+platform :android do
+  desc "Build Release APK"
+  lane :build_release_apk do |options|
+    flavor = options[:flavor] || 'staging'
+
+    increment_version_code(
+      gradle_file_path: "app/build.gradle",
+      version_code: (Time.now.to_i).to_s
+    )
+    sh "flutter clean"
+    sh "flutter build apk --release --flavor #{flavor} --target lib/main_#{flavor}.dart --no-tree-shake-icons"
+  end
+  
+  private_lane :set_flavor do |options|
+    ENV['FLAVOR'] = options[:flavor]
+  end
+
+  desc "Deploy a new android version to the Firebase Distribution"
+  lane :deploy_android_to_firebase do
+    build_release_apk(flavor: 'staging')
+    commit_message = last_git_commit[:message]
+    sh "echo $changelogs"
+    firebase_app_distribution(
+      app: "1:111207335620:android:d196d1df8e5da58207ab91",
+      firebase_cli_token: "1//03RY4LeuvtXpuCgYIARAAGAMSNwF-L9Irj-TjCCnXhu9IsRVGobKV7xQwnL-eXAa4KCNl1C_9k3bk-E7ZmSx1I35RuUX2lj8lSJs",
+      groups: "testers",
+      release_notes: commit_message,
+      android_artifact_type: "APK",
+      android_artifact_path: "../build/app/outputs/flutter-apk/app-staging-release.apk",
+    )
+  end
+
+  desc "Build Production and deploy to Google Play"
+  lane :deploy_to_store do
+      sh "flutter build apk --release --flavor production --target lib/main_production.dart --no-tree-shake-icons"
+    #   huawei_appgallery_connect(
+    #     client_id: "866736634941426496",
+    #     client_secret: "D8380D79087F1FAF030BA9C08A0D2555B217F662B91E91C94F0C639AADAA20B7",
+    #     app_id: "101183205",
+    #     apk_path: "../build/app/outputs/flutter-apk/app-production-release.apk",
+    #     submit_for_review: false,
+    # )
+      upload_to_play_store(
+          track: "production",
+          rollout: '1',
+          json_key: "play_store_key.json")
+  end
+
+
+  desc "Deploy a new android version to the Firebase Distribution"
+  lane :upload_to_firebase do
+    build_release_apk(flavor: 'staging')
+  
+    # Accepting build title as a command-line argument
+    build_title = ARGV[0] || last_git_commit[:message]
+  
+    # Printing the build title for verification
+    sh "echo #{build_title}"
+  
+    firebase_app_distribution(
+      app: "1:111207335620:android:d196d1df8e5da58207ab91",
+      firebase_cli_token: "1//03RY4LeuvtXpuCgYIARAAGAMSNwF-L9Irj-TjCCnXhu9IsRVGobKV7xQwnL-eXAa4KCNl1C_9k3bk-E7ZmSx1I35RuUX2lj8lSJs",
+      groups: "testers",
+      release_notes: build_title,
+      android_artifact_type: "APK",
+      android_artifact_path: "../build/app/outputs/flutter-apk/app-staging-release.apk",
+    )
+  end
+
+
+end

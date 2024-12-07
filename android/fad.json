@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "contactcarsdemo",
+  "private_key_id": "66747797111c17d558915a8f5d0f01c933166a3e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC9d0RZsTYJ//l2\nGiGFUkNajIjdDnQg9l4fFRk+C4lnDpbQyZRRz8pGvc9mvnE24v4GnY7Q76REHGtk\n4jAsEqOcuHuD0dXaHSZWZASd8i1lzsX+H9xtsxOrXc3glZJMVhVmd+S5x8ViROYa\n4cBVw1UhMSipEdfJqaFfWM5p55ZyDGe9K6jWYLf82GmqpMFWS+gG8OhxjvNfG9BH\nFGrIp2DymZFe8UnJCxumNHJz45ftj+TOfW7pHPlh2Q7riqE9LMvKvWakvWvoejBK\nVGzaz0Iyu2K1+Y1dC6oDVi/CBa3llGn8mYE/2cLgUoOTxWrQfuj6zwp/CvOeCbRB\nG8+dmCzJAgMBAAECggEAFR0Pn5wlLL+bBdt7HU+RxGsxTEsSS2MREY8pGTYxaWvh\niCJSljxc6v23eVhjJu3sR4Hy2ps9974gBKXFHwAzveD8GLA/T9dcQJfUQOKuRvBg\nNYXI62ufl0L0kKCyZTHZoCnfsglOWHlbmCbMp3IFUFXZVV/w517xJf4wQHKHnC1P\nEeC78N1MV4eisDGqvXhS1GTCJEuhUGhHA0AZnRjI1PX1J6TDWQKw9LCTp0//OR7B\nKfpnwOktxwJyk9LmJFbOlh1amcVqAbvu/7kEkX+7ZycFM7FAVHtI3Biok49NdIjO\nSlUJn1EujbonyWiJbbS8h/Hi/XOA1SQmQnxMC1qKdQKBgQDoKByJfP7wjFbXnazV\nFbrtYrg7q9bLX1O8ah31tQGnQOIp/uFH4+bgBUi/covkT6ifprwOpcQm4/jNn0sr\nD+q4LU6Dhdxk7NjIK2z9opx3E6N518WbWP2vnx/bLI2fkiI/vsbPhWJw9dYhc5md\nqucyXb7VwqnyZkOb+KTt+jCHjQKBgQDQ7Ll1pVnHnuq9Mq6Bw/f2dC2mRuNzlKOi\nV+giXNCorRsHYR3zMsYHi084SfnEdKNfGpK0KOthacqkVIwolm+jpCpXrQSYoZlo\nEAqA4HfQ5oVOWO74IhdFzZtbBGXoJDzzvPmCFnyeFI89w8ufOBPGVBGMjsr6KsvN\nnZ1XlgL9LQKBgB5LXa3zSbFKHur0AGGt/D6N60yeF+FiByNHFbHCdPzGUrz4LZ2b\n97yz89JHuEmKu45Zy6B9sSMCDK2IY96yrQZroxs2lJP29DLqt8ZBOfmv7l0v8vFa\no4APW7DWF4UDJMT8uCTMWxQygEbNNvaEHrdL1GNAi7y964Sm5Z7ITxzhAoGBAMKi\n9zhp3hVBsNCoKbkM17JLk8ennPitjjCNEt8Idv/dnSOnz14lfCXFG/2FtWHXg+fy\n+p9Ky9aJ11Z2ych6NfFO3H+n2XNUgXVYFGDyPc1pJOHTqnWSVPobzVLi6wl00TAF\narFNv7UJ1FSnVsizVoDbCypWUTT0r7+TyeSyBYDVAoGAZuG1cmCcsCFTH8S7KzPT\nkShTclOEAyy/6be9yBPKQg/fNPwmXyHSrKB8oSAktlQHfZkw+/YSjjOzWzItXkDz\nfWyvJ8c/aSKn4WZfB0Imm/kTZrziQrcc1uTiOB0MgczBYoWScm4jevzYKShhQI8E\nxVc1tZYo0+D3CFCt4n466Fs=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-app-distribution-admi@contactcarsdemo.iam.gserviceaccount.com",
+  "client_id": "113572140407451801156",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-app-distribution-admi%40contactcarsdemo.iam.gserviceaccount.com"
+}

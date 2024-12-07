@@ -1,0 +1,13 @@
+# Method to determine the package name based on an environment variable
+# def determine_package_name
+#     flavor = ENV['FLAVOR']
+#     case flavor
+#     when 'staging'
+#       'net.sarmady.contactcarswithtabs.test'
+#     else
+#       'net.sarmady.contactcarswithtabs'
+#     end
+#   end
+
+json_key_file("android/play_store_key.json")
+package_name('net.sarmady.contactcarswithtabs.test')

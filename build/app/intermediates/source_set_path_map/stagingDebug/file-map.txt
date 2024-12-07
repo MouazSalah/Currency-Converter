@@ -1,0 +1,108 @@
+net.sarmady.contactcarswithtabs.app-lifecycle-reactivestreams-2.7.0-0 /home/mouaz/.gradle/caches/transforms-3/0083aa0b216313fbe8e44c38763d240d/transformed/lifecycle-reactivestreams-2.7.0/res
+net.sarmady.contactcarswithtabs.app-jetified-window-java-1.2.0-1 /home/mouaz/.gradle/caches/transforms-3/019a142357a6f5bc0738691335d45d7a/transformed/jetified-window-java-1.2.0/res
+net.sarmady.contactcarswithtabs.app-jetified-viewpager2-1.0.0-2 /home/mouaz/.gradle/caches/transforms-3/01fb2390dd62af321a51c22e0a94993d/transformed/jetified-viewpager2-1.0.0/res
+net.sarmady.contactcarswithtabs.app-core-1.13.1-3 /home/mouaz/.gradle/caches/transforms-3/09d8b42a9d9551515b8a04a2511bac98/transformed/core-1.13.1/res
+net.sarmady.contactcarswithtabs.app-appcompat-1.6.1-4 /home/mouaz/.gradle/caches/transforms-3/0aa1c77f149319b76d07e37e79f271fa/transformed/appcompat-1.6.1/res
+net.sarmady.contactcarswithtabs.app-jetified-activity-ktx-1.9.1-5 /home/mouaz/.gradle/caches/transforms-3/0c385e043b95dbc9da4ebb03ed01274a/transformed/jetified-activity-ktx-1.9.1/res
+net.sarmady.contactcarswithtabs.app-jetified-play-services-ads-22.5.0-6 /home/mouaz/.gradle/caches/transforms-3/0c966b22c44b425cc9ce3341e458aa82/transformed/jetified-play-services-ads-22.5.0/res
+net.sarmady.contactcarswithtabs.app-jetified-lifecycle-livedata-ktx-2.7.0-7 /home/mouaz/.gradle/caches/transforms-3/10f93ec4a8caa03a66b237d2daa5c37d/transformed/jetified-lifecycle-livedata-ktx-2.7.0/res
+net.sarmady.contactcarswithtabs.app-jetified-play-services-basement-18.3.0-8 /home/mouaz/.gradle/caches/transforms-3/145e398174e3d0704f235beb727be831/transformed/jetified-play-services-basement-18.3.0/res
+net.sarmady.contactcarswithtabs.app-jetified-play-services-base-18.3.0-9 /home/mouaz/.gradle/caches/transforms-3/1c0afaf26e9b2a84455fbd211bbe2e73/transformed/jetified-play-services-base-18.3.0/res
+net.sarmady.contactcarswithtabs.app-jetified-core-1.0.0-10 /home/mouaz/.gradle/caches/transforms-3/217b4a0bafb345db05164e6508e98b37/transformed/jetified-core-1.0.0/res
+net.sarmady.contactcarswithtabs.app-jetified-firebase-common-21.0.0-11 /home/mouaz/.gradle/caches/transforms-3/22f302e64cf284841103813dc39dad2e/transformed/jetified-firebase-common-21.0.0/res
+net.sarmady.contactcarswithtabs.app-jetified-core-ktx-1.13.1-12 /home/mouaz/.gradle/caches/transforms-3/2527f2516d8bcb6328919edb99950475/transformed/jetified-core-ktx-1.13.1/res
+net.sarmady.contactcarswithtabs.app-fragment-1.7.1-13 /home/mouaz/.gradle/caches/transforms-3/2a7ec0285672ecad5765f660075a57a7/transformed/fragment-1.7.1/res
+net.sarmady.contactcarswithtabs.app-jetified-play-services-auth-21.0.0-14 /home/mouaz/.gradle/caches/transforms-3/2eee13eb14b5a3f9a892bc2fa18ec267/transformed/jetified-play-services-auth-21.0.0/res
+net.sarmady.contactcarswithtabs.app-work-runtime-2.7.0-15 /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/res
+net.sarmady.contactcarswithtabs.app-jetified-lifecycle-runtime-ktx-2.7.0-16 /home/mouaz/.gradle/caches/transforms-3/3a00140b04b644c6d68916fc676e5dcd/transformed/jetified-lifecycle-runtime-ktx-2.7.0/res
+net.sarmady.contactcarswithtabs.app-jetified-lifecycle-service-2.7.0-17 /home/mouaz/.gradle/caches/transforms-3/3d0bf97640c81c61947182d3c1564b6a/transformed/jetified-lifecycle-service-2.7.0/res
+net.sarmady.contactcarswithtabs.app-jetified-lifecycle-livedata-core-ktx-2.7.0-18 /home/mouaz/.gradle/caches/transforms-3/3ee246d63a2075ef9e852c95baf5abc3/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/res
+net.sarmady.contactcarswithtabs.app-jetified-firebase-messaging-23.4.1-19 /home/mouaz/.gradle/caches/transforms-3/504e8dbf7b02d5063f56554e50bfaa7d/transformed/jetified-firebase-messaging-23.4.1/res
+net.sarmady.contactcarswithtabs.app-jetified-savedstate-1.2.1-20 /home/mouaz/.gradle/caches/transforms-3/54005155591895208feafd9fd23923b7/transformed/jetified-savedstate-1.2.1/res
+net.sarmady.contactcarswithtabs.app-jetified-play-services-measurement-api-22.0.0-21 /home/mouaz/.gradle/caches/transforms-3/5ed97ee921eb828fced96b61a3613892/transformed/jetified-play-services-measurement-api-22.0.0/res
+net.sarmady.contactcarswithtabs.app-jetified-datastore-preferences-1.0.0-22 /home/mouaz/.gradle/caches/transforms-3/6239b80939b5dc0968026fd45571fe01/transformed/jetified-datastore-preferences-1.0.0/res
+net.sarmady.contactcarswithtabs.app-jetified-lifecycle-viewmodel-ktx-2.7.0-23 /home/mouaz/.gradle/caches/transforms-3/629aac015b3c7eeb9761c5d4bfaece79/transformed/jetified-lifecycle-viewmodel-ktx-2.7.0/res
+net.sarmady.contactcarswithtabs.app-media-1.7.0-24 /home/mouaz/.gradle/caches/transforms-3/666e0eb8ddad1261ac856f9e8e163d01/transformed/media-1.7.0/res
+net.sarmady.contactcarswithtabs.app-jetified-emoji2-views-helper-1.2.0-25 /home/mouaz/.gradle/caches/transforms-3/6c925ba06fe2bb8aac276bca27ed5fdd/transformed/jetified-emoji2-views-helper-1.2.0/res
+net.sarmady.contactcarswithtabs.app-constraintlayout-2.1.4-26 /home/mouaz/.gradle/caches/transforms-3/743458e93973097f54d9dd2eb4bb51c1/transformed/constraintlayout-2.1.4/res
+net.sarmady.contactcarswithtabs.app-jetified-ads-adservices-java-1.0.0-beta05-27 /home/mouaz/.gradle/caches/transforms-3/7483226d3f3897398a574166d52b7d9f/transformed/jetified-ads-adservices-java-1.0.0-beta05/res
+net.sarmady.contactcarswithtabs.app-core-runtime-2.2.0-28 /home/mouaz/.gradle/caches/transforms-3/78699a9f02ef2421c38e20450b1bd6f8/transformed/core-runtime-2.2.0/res
+net.sarmady.contactcarswithtabs.app-jetified-play-services-ads-lite-22.5.0-29 /home/mouaz/.gradle/caches/transforms-3/7f6e82b3f9c1c80b0d76a6039ea02933/transformed/jetified-play-services-ads-lite-22.5.0/res
+net.sarmady.contactcarswithtabs.app-recyclerview-1.1.0-30 /home/mouaz/.gradle/caches/transforms-3/88f6165e75711f8f9cb63b7080028edd/transformed/recyclerview-1.1.0/res
+net.sarmady.contactcarswithtabs.app-jetified-annotation-experimental-1.4.0-31 /home/mouaz/.gradle/caches/transforms-3/8aef7d0e13b22151f79a451e9a447003/transformed/jetified-annotation-experimental-1.4.0/res
+net.sarmady.contactcarswithtabs.app-cardview-1.0.0-32 /home/mouaz/.gradle/caches/transforms-3/8d9428630d79ec351058dd85dcd576fd/transformed/cardview-1.0.0/res
+net.sarmady.contactcarswithtabs.app-lifecycle-livedata-core-2.7.0-33 /home/mouaz/.gradle/caches/transforms-3/8ddfd852d4148a128abcb1e8ac4b8832/transformed/lifecycle-livedata-core-2.7.0/res
+net.sarmady.contactcarswithtabs.app-jetified-fragment-ktx-1.7.1-34 /home/mouaz/.gradle/caches/transforms-3/917179cf82bdc03d18558f81dd36c5d3/transformed/jetified-fragment-ktx-1.7.1/res
+net.sarmady.contactcarswithtabs.app-drawerlayout-1.1.1-35 /home/mouaz/.gradle/caches/transforms-3/9463c1a03231714ec0602879d2321158/transformed/drawerlayout-1.1.1/res
+net.sarmady.contactcarswithtabs.app-localbroadcastmanager-1.1.0-36 /home/mouaz/.gradle/caches/transforms-3/96979ddc18539896a2171467182dca0b/transformed/localbroadcastmanager-1.1.0/res
+net.sarmady.contactcarswithtabs.app-jetified-lifecycle-process-2.7.0-37 /home/mouaz/.gradle/caches/transforms-3/9db72eff5dfd0bac7d7943e1488d0b2a/transformed/jetified-lifecycle-process-2.7.0/res
+net.sarmady.contactcarswithtabs.app-room-runtime-2.5.0-38 /home/mouaz/.gradle/caches/transforms-3/a408bb9e2d2f090b88a38228338cc769/transformed/room-runtime-2.5.0/res
+net.sarmady.contactcarswithtabs.app-jetified-profileinstaller-1.3.1-39 /home/mouaz/.gradle/caches/transforms-3/acb77472a4c741b9be3578054f591e38/transformed/jetified-profileinstaller-1.3.1/res
+net.sarmady.contactcarswithtabs.app-lifecycle-runtime-2.7.0-40 /home/mouaz/.gradle/caches/transforms-3/adf82aa5afbd5136678cd9f35af0d3d7/transformed/lifecycle-runtime-2.7.0/res
+net.sarmady.contactcarswithtabs.app-transition-1.2.0-41 /home/mouaz/.gradle/caches/transforms-3/afc703cf7cdbc22064830a3e5f1592d4/transformed/transition-1.2.0/res
+net.sarmady.contactcarswithtabs.app-jetified-ads-adservices-1.0.0-beta05-42 /home/mouaz/.gradle/caches/transforms-3/b039313df23b2872d95f72d88562eb9c/transformed/jetified-ads-adservices-1.0.0-beta05/res
+net.sarmady.contactcarswithtabs.app-jetified-room-ktx-2.3.0-43 /home/mouaz/.gradle/caches/transforms-3/b05fb0db56d3d42f62f3ce7226a20464/transformed/jetified-room-ktx-2.3.0/res
+net.sarmady.contactcarswithtabs.app-sqlite-2.3.0-44 /home/mouaz/.gradle/caches/transforms-3/b080d405d44e5658d10d3659e63f79f5/transformed/sqlite-2.3.0/res
+net.sarmady.contactcarswithtabs.app-jetified-startup-runtime-1.1.1-45 /home/mouaz/.gradle/caches/transforms-3/c31cea65265bc7f703abde30212dc126/transformed/jetified-startup-runtime-1.1.1/res
+net.sarmady.contactcarswithtabs.app-jetified-window-1.2.0-46 /home/mouaz/.gradle/caches/transforms-3/c684dda41da16b2982712ed489891fc9/transformed/jetified-window-1.2.0/res
+net.sarmady.contactcarswithtabs.app-jetified-media3-exoplayer-1.4.0-47 /home/mouaz/.gradle/caches/transforms-3/c735af910e1dcc24dbd1a4aff505c88f/transformed/jetified-media3-exoplayer-1.4.0/res
+net.sarmady.contactcarswithtabs.app-jetified-activity-1.9.1-48 /home/mouaz/.gradle/caches/transforms-3/c75577ec322d7370006024d26e3f6018/transformed/jetified-activity-1.9.1/res
+net.sarmady.contactcarswithtabs.app-material-1.11.0-49 /home/mouaz/.gradle/caches/transforms-3/cbe83e3e858d716088b55daacb6111a0/transformed/material-1.11.0/res
+net.sarmady.contactcarswithtabs.app-jetified-library-3.5.2-50 /home/mouaz/.gradle/caches/transforms-3/cbf324a7613bf22032aa4b01f9e7a6a7/transformed/jetified-library-3.5.2/res
+net.sarmady.contactcarswithtabs.app-swiperefreshlayout-1.1.0-51 /home/mouaz/.gradle/caches/transforms-3/d0a2100d5f3139606a5164f68a96b2ea/transformed/swiperefreshlayout-1.1.0/res
+net.sarmady.contactcarswithtabs.app-jetified-tracing-1.2.0-52 /home/mouaz/.gradle/caches/transforms-3/d287dd71887869cc81513ad723cc4c82/transformed/jetified-tracing-1.2.0/res
+net.sarmady.contactcarswithtabs.app-browser-1.8.0-53 /home/mouaz/.gradle/caches/transforms-3/dbaae527dd38fc2f8e06e83876459c64/transformed/browser-1.8.0/res
+net.sarmady.contactcarswithtabs.app-jetified-appcompat-resources-1.6.1-54 /home/mouaz/.gradle/caches/transforms-3/dd9371e6cab3044635c08c065c82eda0/transformed/jetified-appcompat-resources-1.6.1/res
+net.sarmady.contactcarswithtabs.app-webkit-1.11.0-55 /home/mouaz/.gradle/caches/transforms-3/de1feca5f74be1e110d3aeba9a00c3a9/transformed/webkit-1.11.0/res
+net.sarmady.contactcarswithtabs.app-coordinatorlayout-1.1.0-56 /home/mouaz/.gradle/caches/transforms-3/e28ed2a8ec734e2cd5aa45846841d818/transformed/coordinatorlayout-1.1.0/res
+net.sarmady.contactcarswithtabs.app-jetified-emoji2-1.2.0-57 /home/mouaz/.gradle/caches/transforms-3/e97f4f30992a557bf2ef14e90b999678/transformed/jetified-emoji2-1.2.0/res
+net.sarmady.contactcarswithtabs.app-lifecycle-viewmodel-2.7.0-58 /home/mouaz/.gradle/caches/transforms-3/f1b9b8ad5e14a110e970b4f8bc1e0bb7/transformed/lifecycle-viewmodel-2.7.0/res
+net.sarmady.contactcarswithtabs.app-jetified-datastore-1.0.0-59 /home/mouaz/.gradle/caches/transforms-3/f31f0b64b4defe1e8aa093cf66a0b1e1/transformed/jetified-datastore-1.0.0/res
+net.sarmady.contactcarswithtabs.app-jetified-lifecycle-viewmodel-savedstate-2.7.0-60 /home/mouaz/.gradle/caches/transforms-3/f68195769bf2a464c7b3029fa671c94d/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/res
+net.sarmady.contactcarswithtabs.app-jetified-savedstate-ktx-1.2.1-61 /home/mouaz/.gradle/caches/transforms-3/faeb1ecda3c788e7ed2757342241a3d6/transformed/jetified-savedstate-ktx-1.2.1/res
+net.sarmady.contactcarswithtabs.app-lifecycle-livedata-2.7.0-62 /home/mouaz/.gradle/caches/transforms-3/fb5786279e241f9e2db05634eb420fdf/transformed/lifecycle-livedata-2.7.0/res
+net.sarmady.contactcarswithtabs.app-sqlite-framework-2.3.0-63 /home/mouaz/.gradle/caches/transforms-3/ff3c46b0975d140b5704fed1e81cb1d0/transformed/sqlite-framework-2.3.0/res
+net.sarmady.contactcarswithtabs.app-debug-64 /home/mouaz/Desktop/Currency Converter/android/app/src/debug/res
+net.sarmady.contactcarswithtabs.app-main-65 /home/mouaz/Desktop/Currency Converter/android/app/src/main/res
+net.sarmady.contactcarswithtabs.app-staging-66 /home/mouaz/Desktop/Currency Converter/android/app/src/staging/res
+net.sarmady.contactcarswithtabs.app-stagingDebug-67 /home/mouaz/Desktop/Currency Converter/android/app/src/stagingDebug/res
+net.sarmady.contactcarswithtabs.app-staging-68 /home/mouaz/Desktop/Currency Converter/build/app/generated/res/google-services/staging/debug
+net.sarmady.contactcarswithtabs.app-staging-69 /home/mouaz/Desktop/Currency Converter/build/app/generated/res/pngs/staging/debug
+net.sarmady.contactcarswithtabs.app-staging-70 /home/mouaz/Desktop/Currency Converter/build/app/generated/res/resValues/staging/debug
+net.sarmady.contactcarswithtabs.app-staging-71 /home/mouaz/Desktop/Currency Converter/build/app/generated/res/rs/staging/debug
+net.sarmady.contactcarswithtabs.app-mergeStagingDebugResources-72 /home/mouaz/Desktop/Currency Converter/build/app/intermediates/incremental/stagingDebug/mergeStagingDebugResources/merged.dir
+net.sarmady.contactcarswithtabs.app-mergeStagingDebugResources-73 /home/mouaz/Desktop/Currency Converter/build/app/intermediates/incremental/stagingDebug/mergeStagingDebugResources/stripped.dir
+net.sarmady.contactcarswithtabs.app-merged_res-74 /home/mouaz/Desktop/Currency Converter/build/app/intermediates/merged_res/stagingDebug
+net.sarmady.contactcarswithtabs.app-packaged_res-75 /home/mouaz/Desktop/Currency Converter/build/app_links/intermediates/packaged_res/debug
+net.sarmady.contactcarswithtabs.app-packaged_res-76 /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/packaged_res/debug
+net.sarmady.contactcarswithtabs.app-packaged_res-77 /home/mouaz/Desktop/Currency Converter/build/connectivity_plus/intermediates/packaged_res/debug
+net.sarmady.contactcarswithtabs.app-packaged_res-78 /home/mouaz/Desktop/Currency Converter/build/device_info_plus/intermediates/packaged_res/debug
+net.sarmady.contactcarswithtabs.app-packaged_res-79 /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/packaged_res/debug
+net.sarmady.contactcarswithtabs.app-packaged_res-80 /home/mouaz/Desktop/Currency Converter/build/firebase_analytics/intermediates/packaged_res/debug
+net.sarmady.contactcarswithtabs.app-packaged_res-81 /home/mouaz/Desktop/Currency Converter/build/firebase_auth/intermediates/packaged_res/debug
+net.sarmady.contactcarswithtabs.app-packaged_res-82 /home/mouaz/Desktop/Currency Converter/build/firebase_core/intermediates/packaged_res/debug
+net.sarmady.contactcarswithtabs.app-packaged_res-83 /home/mouaz/Desktop/Currency Converter/build/firebase_crashlytics/intermediates/packaged_res/debug
+net.sarmady.contactcarswithtabs.app-packaged_res-84 /home/mouaz/Desktop/Currency Converter/build/firebase_messaging/intermediates/packaged_res/debug
+net.sarmady.contactcarswithtabs.app-packaged_res-85 /home/mouaz/Desktop/Currency Converter/build/firebase_performance/intermediates/packaged_res/debug
+net.sarmady.contactcarswithtabs.app-packaged_res-86 /home/mouaz/Desktop/Currency Converter/build/firebase_remote_config/intermediates/packaged_res/debug
+net.sarmady.contactcarswithtabs.app-packaged_res-87 /home/mouaz/Desktop/Currency Converter/build/flutter_image_compress_common/intermediates/packaged_res/debug
+net.sarmady.contactcarswithtabs.app-packaged_res-88 /home/mouaz/Desktop/Currency Converter/build/flutter_inappwebview/intermediates/packaged_res/debug
+net.sarmady.contactcarswithtabs.app-packaged_res-89 /home/mouaz/Desktop/Currency Converter/build/flutter_internet_speed_test/intermediates/packaged_res/debug
+net.sarmady.contactcarswithtabs.app-packaged_res-90 /home/mouaz/Desktop/Currency Converter/build/flutter_plugin_android_lifecycle/intermediates/packaged_res/debug
+net.sarmady.contactcarswithtabs.app-packaged_res-91 /home/mouaz/Desktop/Currency Converter/build/fluttertoast/intermediates/packaged_res/debug
+net.sarmady.contactcarswithtabs.app-packaged_res-92 /home/mouaz/Desktop/Currency Converter/build/geolocator_android/intermediates/packaged_res/debug
+net.sarmady.contactcarswithtabs.app-packaged_res-93 /home/mouaz/Desktop/Currency Converter/build/google_mobile_ads/intermediates/packaged_res/debug
+net.sarmady.contactcarswithtabs.app-packaged_res-94 /home/mouaz/Desktop/Currency Converter/build/google_sign_in_android/intermediates/packaged_res/debug
+net.sarmady.contactcarswithtabs.app-packaged_res-95 /home/mouaz/Desktop/Currency Converter/build/image_picker_android/intermediates/packaged_res/debug
+net.sarmady.contactcarswithtabs.app-packaged_res-96 /home/mouaz/Desktop/Currency Converter/build/package_info_plus/intermediates/packaged_res/debug
+net.sarmady.contactcarswithtabs.app-packaged_res-97 /home/mouaz/Desktop/Currency Converter/build/path_provider_android/intermediates/packaged_res/debug
+net.sarmady.contactcarswithtabs.app-packaged_res-98 /home/mouaz/Desktop/Currency Converter/build/permission_handler_android/intermediates/packaged_res/debug
+net.sarmady.contactcarswithtabs.app-packaged_res-99 /home/mouaz/Desktop/Currency Converter/build/share_plus/intermediates/packaged_res/debug
+net.sarmady.contactcarswithtabs.app-packaged_res-100 /home/mouaz/Desktop/Currency Converter/build/shared_preferences_android/intermediates/packaged_res/debug
+net.sarmady.contactcarswithtabs.app-packaged_res-101 /home/mouaz/Desktop/Currency Converter/build/sign_in_with_apple/intermediates/packaged_res/debug
+net.sarmady.contactcarswithtabs.app-packaged_res-102 /home/mouaz/Desktop/Currency Converter/build/smart_auth/intermediates/packaged_res/debug
+net.sarmady.contactcarswithtabs.app-packaged_res-103 /home/mouaz/Desktop/Currency Converter/build/sqflite/intermediates/packaged_res/debug
+net.sarmady.contactcarswithtabs.app-packaged_res-104 /home/mouaz/Desktop/Currency Converter/build/uni_links/intermediates/packaged_res/debug
+net.sarmady.contactcarswithtabs.app-packaged_res-105 /home/mouaz/Desktop/Currency Converter/build/url_launcher_android/intermediates/packaged_res/debug
+net.sarmady.contactcarswithtabs.app-packaged_res-106 /home/mouaz/Desktop/Currency Converter/build/video_player_android/intermediates/packaged_res/debug
+net.sarmady.contactcarswithtabs.app-packaged_res-107 /home/mouaz/Desktop/Currency Converter/build/webview_flutter_android/intermediates/packaged_res/debug
