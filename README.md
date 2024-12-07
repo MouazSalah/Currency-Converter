@@ -1,5 +1,4 @@
-# Create a structured README.md file content
-readme_content = """
+
 # Currency Converter App
 
 A Flutter-based Currency Converter application designed to demonstrate robust system architecture, clean code, and modern development practices. This app provides functionalities for currency conversion, historical exchange rate tracking, and offline storage of currency data.
@@ -47,12 +46,3 @@ A Flutter-based Currency Converter application designed to demonstrate robust sy
 
 7. **GoRouter**:
    - Implements a declarative approach to navigation, ensuring seamless and efficient page transitions.
-
----
-
-## Installation and Setup
-
-1. **Clone the Repository**:
-   ```bash
-   git clone <repository-link>
-   cd currency_converter_app
