@@ -1,0 +1,37 @@
+// **************************************************************************
+// TypeAdapterGenerator
+// **************************************************************************
+
+class CurrencyResponseAdapter extends TypeAdapter<CurrencyResponse> {
+  @override
+  final int typeId = 0;
+
+  @override
+  CurrencyResponse read(BinaryReader reader) {
+    final numOfFields = reader.readByte();
+    final fields = <int, dynamic>{
+      for (int i = 0; i < numOfFields; i++) reader.readByte(): reader.read(),
+    };
+    return CurrencyResponse(
+      results: (fields[0] as Map).cast<String, Currency>(),
+    );
+  }
+
+  @override
+  void write(BinaryWriter writer, CurrencyResponse obj) {
+    writer
+      ..writeByte(1)
+      ..writeByte(0)
+      ..write(obj.results);
+  }
+
+  @override
+  int get hashCode => typeId.hashCode;
+
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      other is CurrencyResponseAdapter &&
+          runtimeType == other.runtimeType &&
+          typeId == other.typeId;
+}

@@ -1,0 +1,34 @@
+default_platform(:ios)
+
+platform :ios do
+  desc "Increment the version name and number"
+  lane :increment_version_number do
+    # Fetch the current build number
+    current_build_number = get_build_number(
+      xcodeproj: "Runner.xcodeproj" 
+    ).to_i
+
+    # Increment the build number by 1
+    new_build_number = current_build_number + 1
+
+    # Set the new build number
+    increment_build_number(
+      build_number: new_build_number.to_s
+    )
+
+    # Optional: Output the new build number for confirmation
+    puts "New build number: #{new_build_number}"
+  end
+
+  desc "Build IPA and Upload to App Center"
+  lane :upload_to_app_center do
+    appcenter_upload(
+      api_token: "671fcf965c9b5168791313a27145beeb4f321980", # Replace with the correct environment variable
+      owner_name: "ahmed.mazher-contactcars.com",
+      app_name: "Flutter-iOS",
+      file: "../build/ios/ipa/CC Staging.ipa",
+      release_notes: "First Fastlane IPA",
+      destinations: "public" # Replace with the correct public distribution group name
+    )
+  end
+end

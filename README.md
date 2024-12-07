@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Currency Converter App
 
@@ -46,3 +47,22 @@ A Flutter-based Currency Converter application designed to demonstrate robust sy
 
 7. **GoRouter**:
    - Implements a declarative approach to navigation, ensuring seamless and efficient page transitions.
+=======
+# contactcars_app_retail
+
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+ --- 
+ s
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
+>>>>>>> master
