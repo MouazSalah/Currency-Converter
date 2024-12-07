@@ -1,0 +1,1 @@
+ /home/mouaz/Desktop/Currency\ Converter/.dart_tool/flutter_build/41fee9d92bc1a2de83df1310d3aeeac8/native_assets.yaml: 

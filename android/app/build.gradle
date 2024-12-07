@@ -1,0 +1,111 @@
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterRoot = localProperties.getProperty('flutter.sdk')
+if (flutterRoot == null) {
+    throw GradleException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
+}
+
+def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
+if (flutterVersionCode == null) {
+    flutterVersionCode = '687'
+}
+
+def flutterVersionName = localProperties.getProperty('flutter.versionName')
+if (flutterVersionName == null) {
+    flutterVersionName = '6.0.4.7'
+}
+
+apply plugin: 'com.android.application'
+// START: FlutterFire Configuration
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.firebase-perf'
+// END: FlutterFire Configuration
+apply plugin: 'kotlin-android'
+apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+
+def keystoreProperties = new Properties()
+def keystorePropertiesFile = rootProject.file('key.properties')
+if (keystorePropertiesFile.exists()) {
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+}
+
+android {
+    namespace "net.currency.converter"
+    compileSdkVersion 34
+    ndkVersion flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    defaultConfig {
+        multiDexEnabled true
+        minSdkVersion 21
+        targetSdkVersion 34
+        versionCode 1
+        versionName "2024.12.07"
+    }
+
+    signingConfigs {
+       release {
+           keyAlias keystoreProperties['keyAlias']
+           keyPassword keystoreProperties['keyPassword']
+           storeFile keystoreProperties['storeFile'] ? file(keystoreProperties['storeFile']) : null
+           storePassword keystoreProperties['storePassword']
+       }
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+        }
+    }
+
+    flavorDimensions "flavors"
+    productFlavors {
+        production {
+            dimension "flavors"
+            applicationId "net.currency.converter"
+            resValue 'string', "app_name", "Currency Converter"
+        }
+        staging {
+            dimension "flavors"
+            applicationId "net.currency.converter.test"
+            resValue 'string', "app_name", "Currency Converter STAGING"
+        }
+        development {
+            dimension "flavors"
+            applicationId "net.currency.converter.test"
+            resValue 'string', "app_name", "Currency Converter STAGING"
+        }
+    }
+}
+
+flutter {
+    source '../..'
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'com.google.firebase:firebase-messaging:20.1.0'
+    debugImplementation "com.github.chuckerteam.chucker:library:3.5.2"
+    implementation 'com.google.android.gms:play-services-auth:20.2.1'
+    releaseImplementation "com.github.chuckerteam.chucker:library-no-op:3.5.2"
+    implementation 'com.google.firebase:firebase-analytics:22.0.0' 
+}

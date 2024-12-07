@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "net.sarmady.contactcarswithtabs.app-mergeStagingDebugResources-72:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "/home/mouaz/.gradle/caches/transforms-3/cbe83e3e858d716088b55daacb6111a0/transformed/material-1.11.0/res/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,110",
+                        "endColumns": "54,61",
+                        "endOffsets": "105,167"
+                    }
+                }
+            ]
+        }
+    ]
+}

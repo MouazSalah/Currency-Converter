@@ -1,0 +1,48 @@
+trigger:
+  branches:
+    include:
+      - feature/otlobha_and_sell_form_images
+
+pool:
+  vmImage: 'macos-latest'
+
+steps:
+
+- task: JavaToolInstaller@0
+  inputs:
+    versionSpec: '11'
+    jdkArchitectureOption: 'x64'
+    jdkSourceOption: 'PreInstalled'
+  displayName: "Install Java"
+
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '3.x'
+  displayName: "Install Python 3"
+
+- script: |
+    # Install Flutter
+    git clone https://github.com/flutter/flutter.git -b stable --depth 1
+    export PATH="$PATH:`pwd`/flutter/bin"
+    flutter doctor
+  displayName: "Install and Check Flutter"
+
+- script: |
+    ls -a
+    echo `pwd`
+  displayName: "Display Project Directory"
+
+- script: |
+    cd android
+    export PATH="$PATH:`pwd`/../flutter/bin"
+    bundle install
+    bundle exec fastlane upload_to_firebase
+  displayName: "Build Android Retail Staging"
+
+- script: |
+    cd ios
+    export PATH="$PATH:`pwd`/../flutter/bin"
+    bundle install
+    bundle exec fastlane increment_version_number
+    bundle exec fastlane upload_to_app_center
+  displayName: "Build IOS Retail Staging"

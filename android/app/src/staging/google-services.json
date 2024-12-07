@@ -1,0 +1,101 @@
+{
+  "project_info": {
+    "project_number": "111207335620",
+    "firebase_url": "https://contactcarsdemo-default-rtdb.firebaseio.com",
+    "project_id": "contactcarsdemo",
+    "storage_bucket": "contactcarsdemo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111207335620:android:d7c9954a42d5446e07ab91",
+        "android_client_info": {
+          "package_name": "com.contactcars.dealers.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "111207335620-p41m2n310ft1pohfmevmodqie1ba6grp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.contactcars.dealers.test",
+            "certificate_hash": "6f9ac9bbb6d285bac526845fe3e21802e6413edd"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_FFPKux-iCKHrgZ50uGikNxaZ56uoFNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "111207335620-550npbj8mectd8334s1cvve4r1eo1hsn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "111207335620-cg420iq34d1umrf86agn9lqt2a2igsrf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "dev.contactcars.dealers",
+                "app_store_id": "1578244881"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111207335620:android:d196d1df8e5da58207ab91",
+        "android_client_info": {
+          "package_name": "net.sarmady.contactcarswithtabs.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "111207335620-gq49mouhbts9dco1srqo6k2kmscidc5r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.sarmady.contactcarswithtabs.test",
+            "certificate_hash": "902dbadb352568c19c2b1cbc9572de96741d2fe7"
+          }
+        },
+        {
+          "client_id": "111207335620-qrceo16f3hrg1euo7vc11bg4t6a2jnni.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.sarmady.contactcarswithtabs.test",
+            "certificate_hash": "1259dcfa317466066a5ba3e810d9f4d2b2d6bec7"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_FFPKux-iCKHrgZ50uGikNxaZ56uoFNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "111207335620-550npbj8mectd8334s1cvve4r1eo1hsn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "111207335620-cg420iq34d1umrf86agn9lqt2a2igsrf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "dev.contactcars.dealers",
+                "app_store_id": "1578244881"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "PROCESSED_RES",
+    "kind": "Directory"
+  },
+  "applicationId": "net.sarmady.contactcarswithtabs.test",
+  "variantName": "stagingDebug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 1727624399,
+      "versionName": "6.0.4.7",
+      "outputFile": "resources-stagingDebug.ap_"
+    }
+  ],
+  "elementType": "File"
+}

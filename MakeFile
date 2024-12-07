@@ -1,0 +1,8 @@
+.PHONY: run-staging
+
+# to run ==>>> make run-staging
+run-staging:
+	@echo "Running Flutter commands for staging environment..."
+	flutter clean
+	flutter pub get
+	flutter run --flavor staging --target=lib/main_staging.dart

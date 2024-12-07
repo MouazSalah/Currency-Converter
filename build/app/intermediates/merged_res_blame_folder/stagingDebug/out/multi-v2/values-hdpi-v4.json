@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "net.sarmady.contactcarswithtabs.app-mergeStagingDebugResources-72:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/home/mouaz/.gradle/caches/transforms-3/0aa1c77f149319b76d07e37e79f271fa/transformed/appcompat-1.6.1/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

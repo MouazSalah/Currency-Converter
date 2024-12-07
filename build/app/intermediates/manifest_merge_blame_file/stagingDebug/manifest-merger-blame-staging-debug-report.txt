@@ -1,0 +1,1599 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="net.sarmady.contactcarswithtabs.test"
+4    android:versionCode="1727624399"
+5    android:versionName="6.0.4.7" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/home/mouaz/Desktop/Currency Converter/android/app/src/main/AndroidManifest.xml:5:5-66
+15-->/home/mouaz/Desktop/Currency Converter/android/app/src/main/AndroidManifest.xml:5:22-64
+16    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+16-->/home/mouaz/Desktop/Currency Converter/android/app/src/main/AndroidManifest.xml:6:5-76
+16-->/home/mouaz/Desktop/Currency Converter/android/app/src/main/AndroidManifest.xml:6:22-74
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->/home/mouaz/Desktop/Currency Converter/android/app/src/main/AndroidManifest.xml:7:5-80
+17-->/home/mouaz/Desktop/Currency Converter/android/app/src/main/AndroidManifest.xml:7:22-78
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->/home/mouaz/Desktop/Currency Converter/android/app/src/main/AndroidManifest.xml:8:5-78
+18-->/home/mouaz/Desktop/Currency Converter/android/app/src/main/AndroidManifest.xml:8:22-76
+19    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+19-->/home/mouaz/Desktop/Currency Converter/android/app/src/main/AndroidManifest.xml:10:5-84
+19-->/home/mouaz/Desktop/Currency Converter/android/app/src/main/AndroidManifest.xml:10:22-82
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->/home/mouaz/Desktop/Currency Converter/android/app/src/main/AndroidManifest.xml:11:5-67
+20-->/home/mouaz/Desktop/Currency Converter/android/app/src/main/AndroidManifest.xml:11:22-65
+21    <uses-permission android:name="android.permission.VIBRATE" />
+21-->/home/mouaz/Desktop/Currency Converter/android/app/src/main/AndroidManifest.xml:13:5-65
+21-->/home/mouaz/Desktop/Currency Converter/android/app/src/main/AndroidManifest.xml:13:22-63
+22    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+22-->/home/mouaz/Desktop/Currency Converter/android/app/src/main/AndroidManifest.xml:14:5-80
+22-->/home/mouaz/Desktop/Currency Converter/android/app/src/main/AndroidManifest.xml:14:22-78
+23    <uses-permission android:name="android.permission.CAMERA" />
+23-->/home/mouaz/Desktop/Currency Converter/android/app/src/main/AndroidManifest.xml:16:5-64
+23-->/home/mouaz/Desktop/Currency Converter/android/app/src/main/AndroidManifest.xml:16:22-62
+24    <uses-permission
+24-->/home/mouaz/Desktop/Currency Converter/android/app/src/main/AndroidManifest.xml:17:5-79
+25        android:name="android.permission.READ_EXTERNAL_STORAGE"
+25-->/home/mouaz/Desktop/Currency Converter/android/app/src/main/AndroidManifest.xml:17:22-77
+26        android:maxSdkVersion="32" />
+26-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-35
+27    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+27-->/home/mouaz/Desktop/Currency Converter/android/app/src/main/AndroidManifest.xml:18:5-80
+27-->/home/mouaz/Desktop/Currency Converter/android/app/src/main/AndroidManifest.xml:18:22-78
+28    <uses-permission android:name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS" />
+28-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-89
+28-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-86
+29    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+29-->[:connectivity_plus] /home/mouaz/Desktop/Currency Converter/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+29-->[:connectivity_plus] /home/mouaz/Desktop/Currency Converter/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+30
+31    <queries>
+31-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-19:15
+32        <intent>
+32-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-18:18
+33            <action android:name="android.intent.action.GET_CONTENT" />
+33-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-72
+33-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:15:21-69
+34
+35            <data android:mimeType="*/*" />
+35-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+35-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:19-41
+36        </intent>
+37        <intent>
+37-->[:flutter_inappwebview] /home/mouaz/Desktop/Currency Converter/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:18
+38            <action android:name="android.support.customtabs.action.CustomTabsService" />
+38-->[:flutter_inappwebview] /home/mouaz/Desktop/Currency Converter/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-90
+38-->[:flutter_inappwebview] /home/mouaz/Desktop/Currency Converter/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-87
+39        </intent>
+40        <intent>
+40-->[com.github.chuckerteam.chucker:library:3.5.2] /home/mouaz/.gradle/caches/transforms-3/cbf324a7613bf22032aa4b01f9e7a6a7/transformed/jetified-library-3.5.2/AndroidManifest.xml:8:9-12:18
+41            <action android:name="android.intent.action.CREATE_DOCUMENT" />
+41-->[com.github.chuckerteam.chucker:library:3.5.2] /home/mouaz/.gradle/caches/transforms-3/cbf324a7613bf22032aa4b01f9e7a6a7/transformed/jetified-library-3.5.2/AndroidManifest.xml:9:13-76
+41-->[com.github.chuckerteam.chucker:library:3.5.2] /home/mouaz/.gradle/caches/transforms-3/cbf324a7613bf22032aa4b01f9e7a6a7/transformed/jetified-library-3.5.2/AndroidManifest.xml:9:21-73
+42
+43            <data android:mimeType="*/*" />
+43-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+43-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:19-41
+44        </intent> <!-- For browser content -->
+45        <intent>
+45-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/mouaz/.gradle/caches/transforms-3/7f6e82b3f9c1c80b0d76a6039ea02933/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:38:9-44:18
+46            <action android:name="android.intent.action.VIEW" />
+46-->[com.google.firebase:firebase-auth:22.3.1] /home/mouaz/.gradle/caches/transforms-3/74692cab8ae46d4e243464b6bac656e6/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:36:17-69
+46-->[com.google.firebase:firebase-auth:22.3.1] /home/mouaz/.gradle/caches/transforms-3/74692cab8ae46d4e243464b6bac656e6/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:36:25-66
+47
+48            <category android:name="android.intent.category.BROWSABLE" />
+48-->[com.google.firebase:firebase-auth:22.3.1] /home/mouaz/.gradle/caches/transforms-3/74692cab8ae46d4e243464b6bac656e6/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:39:17-78
+48-->[com.google.firebase:firebase-auth:22.3.1] /home/mouaz/.gradle/caches/transforms-3/74692cab8ae46d4e243464b6bac656e6/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:39:27-75
+49
+50            <data android:scheme="https" />
+50-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+51        </intent>
+52    </queries>
+53
+54    <uses-permission
+54-->[me.carda:AndroidAwnCore:0.8.3] /home/mouaz/.gradle/caches/transforms-3/b14f62cf6f3510fe931c740131e302d8/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:10:5-12:38
+55        android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE"
+55-->[me.carda:AndroidAwnCore:0.8.3] /home/mouaz/.gradle/caches/transforms-3/b14f62cf6f3510fe931c740131e302d8/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:11:9-77
+56        android:maxSdkVersion="22" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+56-->[me.carda:AndroidAwnCore:0.8.3] /home/mouaz/.gradle/caches/transforms-3/b14f62cf6f3510fe931c740131e302d8/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:12:9-35
+57    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+57-->[com.google.firebase:firebase-messaging:23.4.1] /home/mouaz/.gradle/caches/transforms-3/504e8dbf7b02d5063f56554e50bfaa7d/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:26:5-82
+57-->[com.google.firebase:firebase-messaging:23.4.1] /home/mouaz/.gradle/caches/transforms-3/504e8dbf7b02d5063f56554e50bfaa7d/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:26:22-79
+58    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+58-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/mouaz/.gradle/caches/transforms-3/7f6e82b3f9c1c80b0d76a6039ea02933/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:26:5-79
+58-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/mouaz/.gradle/caches/transforms-3/7f6e82b3f9c1c80b0d76a6039ea02933/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:26:22-76
+59    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+59-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/mouaz/.gradle/caches/transforms-3/7f6e82b3f9c1c80b0d76a6039ea02933/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:27:5-82
+59-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/mouaz/.gradle/caches/transforms-3/7f6e82b3f9c1c80b0d76a6039ea02933/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:27:22-79
+60    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+60-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/mouaz/.gradle/caches/transforms-3/7f6e82b3f9c1c80b0d76a6039ea02933/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:28:5-88
+60-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/mouaz/.gradle/caches/transforms-3/7f6e82b3f9c1c80b0d76a6039ea02933/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:28:22-85
+61    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_TOPICS" />
+61-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/mouaz/.gradle/caches/transforms-3/7f6e82b3f9c1c80b0d76a6039ea02933/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:29:5-83
+61-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/mouaz/.gradle/caches/transforms-3/7f6e82b3f9c1c80b0d76a6039ea02933/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:29:22-80
+62    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+62-->[com.google.android.gms:play-services-measurement:22.0.0] /home/mouaz/.gradle/caches/transforms-3/6a56b7111965497f6949cff630432c27/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:26:5-110
+62-->[com.google.android.gms:play-services-measurement:22.0.0] /home/mouaz/.gradle/caches/transforms-3/6a56b7111965497f6949cff630432c27/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:26:22-107
+63    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+63-->[com.google.android.recaptcha:recaptcha:18.4.0] /home/mouaz/.gradle/caches/transforms-3/0326cedfd19e4f06e26c3a41a8f8afa2/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:9:5-98
+63-->[com.google.android.recaptcha:recaptcha:18.4.0] /home/mouaz/.gradle/caches/transforms-3/0326cedfd19e4f06e26c3a41a8f8afa2/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:9:22-95
+64    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+64-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:28:5-77
+64-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:28:22-74
+65
+66    <permission
+66-->[androidx.core:core:1.13.1] /home/mouaz/.gradle/caches/transforms-3/09d8b42a9d9551515b8a04a2511bac98/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+67        android:name="net.sarmady.contactcarswithtabs.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+67-->[androidx.core:core:1.13.1] /home/mouaz/.gradle/caches/transforms-3/09d8b42a9d9551515b8a04a2511bac98/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+68        android:protectionLevel="signature" />
+68-->[androidx.core:core:1.13.1] /home/mouaz/.gradle/caches/transforms-3/09d8b42a9d9551515b8a04a2511bac98/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+69
+70    <uses-permission android:name="net.sarmady.contactcarswithtabs.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- for android -->
+70-->[androidx.core:core:1.13.1] /home/mouaz/.gradle/caches/transforms-3/09d8b42a9d9551515b8a04a2511bac98/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+70-->[androidx.core:core:1.13.1] /home/mouaz/.gradle/caches/transforms-3/09d8b42a9d9551515b8a04a2511bac98/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+71    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+72    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+73    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+74    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+75    <!-- for Samsung -->
+76    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+76-->[me.leolin:ShortcutBadger:1.1.22] /home/mouaz/.gradle/caches/transforms-3/fdafc3d1e48f2f3553c3f2e04fc670c8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+76-->[me.leolin:ShortcutBadger:1.1.22] /home/mouaz/.gradle/caches/transforms-3/fdafc3d1e48f2f3553c3f2e04fc670c8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+77    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+77-->[me.leolin:ShortcutBadger:1.1.22] /home/mouaz/.gradle/caches/transforms-3/fdafc3d1e48f2f3553c3f2e04fc670c8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+77-->[me.leolin:ShortcutBadger:1.1.22] /home/mouaz/.gradle/caches/transforms-3/fdafc3d1e48f2f3553c3f2e04fc670c8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+78    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+78-->[me.leolin:ShortcutBadger:1.1.22] /home/mouaz/.gradle/caches/transforms-3/fdafc3d1e48f2f3553c3f2e04fc670c8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+78-->[me.leolin:ShortcutBadger:1.1.22] /home/mouaz/.gradle/caches/transforms-3/fdafc3d1e48f2f3553c3f2e04fc670c8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+79    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+79-->[me.leolin:ShortcutBadger:1.1.22] /home/mouaz/.gradle/caches/transforms-3/fdafc3d1e48f2f3553c3f2e04fc670c8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+79-->[me.leolin:ShortcutBadger:1.1.22] /home/mouaz/.gradle/caches/transforms-3/fdafc3d1e48f2f3553c3f2e04fc670c8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+80    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+80-->[me.leolin:ShortcutBadger:1.1.22] /home/mouaz/.gradle/caches/transforms-3/fdafc3d1e48f2f3553c3f2e04fc670c8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+80-->[me.leolin:ShortcutBadger:1.1.22] /home/mouaz/.gradle/caches/transforms-3/fdafc3d1e48f2f3553c3f2e04fc670c8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+81    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+81-->[me.leolin:ShortcutBadger:1.1.22] /home/mouaz/.gradle/caches/transforms-3/fdafc3d1e48f2f3553c3f2e04fc670c8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+81-->[me.leolin:ShortcutBadger:1.1.22] /home/mouaz/.gradle/caches/transforms-3/fdafc3d1e48f2f3553c3f2e04fc670c8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+82    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+82-->[me.leolin:ShortcutBadger:1.1.22] /home/mouaz/.gradle/caches/transforms-3/fdafc3d1e48f2f3553c3f2e04fc670c8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+82-->[me.leolin:ShortcutBadger:1.1.22] /home/mouaz/.gradle/caches/transforms-3/fdafc3d1e48f2f3553c3f2e04fc670c8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+83    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+83-->[me.leolin:ShortcutBadger:1.1.22] /home/mouaz/.gradle/caches/transforms-3/fdafc3d1e48f2f3553c3f2e04fc670c8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+83-->[me.leolin:ShortcutBadger:1.1.22] /home/mouaz/.gradle/caches/transforms-3/fdafc3d1e48f2f3553c3f2e04fc670c8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+84    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+84-->[me.leolin:ShortcutBadger:1.1.22] /home/mouaz/.gradle/caches/transforms-3/fdafc3d1e48f2f3553c3f2e04fc670c8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+84-->[me.leolin:ShortcutBadger:1.1.22] /home/mouaz/.gradle/caches/transforms-3/fdafc3d1e48f2f3553c3f2e04fc670c8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+85    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+85-->[me.leolin:ShortcutBadger:1.1.22] /home/mouaz/.gradle/caches/transforms-3/fdafc3d1e48f2f3553c3f2e04fc670c8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+85-->[me.leolin:ShortcutBadger:1.1.22] /home/mouaz/.gradle/caches/transforms-3/fdafc3d1e48f2f3553c3f2e04fc670c8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+86    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+86-->[me.leolin:ShortcutBadger:1.1.22] /home/mouaz/.gradle/caches/transforms-3/fdafc3d1e48f2f3553c3f2e04fc670c8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+86-->[me.leolin:ShortcutBadger:1.1.22] /home/mouaz/.gradle/caches/transforms-3/fdafc3d1e48f2f3553c3f2e04fc670c8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+87    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+87-->[me.leolin:ShortcutBadger:1.1.22] /home/mouaz/.gradle/caches/transforms-3/fdafc3d1e48f2f3553c3f2e04fc670c8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+87-->[me.leolin:ShortcutBadger:1.1.22] /home/mouaz/.gradle/caches/transforms-3/fdafc3d1e48f2f3553c3f2e04fc670c8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+88    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+88-->[me.leolin:ShortcutBadger:1.1.22] /home/mouaz/.gradle/caches/transforms-3/fdafc3d1e48f2f3553c3f2e04fc670c8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+88-->[me.leolin:ShortcutBadger:1.1.22] /home/mouaz/.gradle/caches/transforms-3/fdafc3d1e48f2f3553c3f2e04fc670c8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+89    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+89-->[me.leolin:ShortcutBadger:1.1.22] /home/mouaz/.gradle/caches/transforms-3/fdafc3d1e48f2f3553c3f2e04fc670c8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+89-->[me.leolin:ShortcutBadger:1.1.22] /home/mouaz/.gradle/caches/transforms-3/fdafc3d1e48f2f3553c3f2e04fc670c8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+90    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+90-->[me.leolin:ShortcutBadger:1.1.22] /home/mouaz/.gradle/caches/transforms-3/fdafc3d1e48f2f3553c3f2e04fc670c8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+90-->[me.leolin:ShortcutBadger:1.1.22] /home/mouaz/.gradle/caches/transforms-3/fdafc3d1e48f2f3553c3f2e04fc670c8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+91    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+91-->[me.leolin:ShortcutBadger:1.1.22] /home/mouaz/.gradle/caches/transforms-3/fdafc3d1e48f2f3553c3f2e04fc670c8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+91-->[me.leolin:ShortcutBadger:1.1.22] /home/mouaz/.gradle/caches/transforms-3/fdafc3d1e48f2f3553c3f2e04fc670c8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+92
+93    <application
+94        android:name="android.app.Application"
+95        android:allowBackup="false"
+96        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+96-->[androidx.core:core:1.13.1] /home/mouaz/.gradle/caches/transforms-3/09d8b42a9d9551515b8a04a2511bac98/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+97        android:debuggable="true"
+98        android:icon="@mipmap/launcher_icon"
+99        android:label="@string/app_name"
+100        android:largeHeap="true"
+101        android:requestLegacyExternalStorage="true"
+102        android:supportsRtl="true"
+103        android:usesCleartextTraffic="true" >
+104
+105        <!-- Main Activity Configuration -->
+106        <activity
+107            android:name="net.sarmady.contactcarswithtabs.MainActivity"
+108            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+109            android:exported="true"
+110            android:hardwareAccelerated="true"
+111            android:launchMode="singleTask"
+112            android:theme="@style/LaunchTheme"
+113            android:windowSoftInputMode="adjustResize" >
+114
+115            <!-- Flutter Meta-Data -->
+116            <meta-data
+117                android:name="io.flutter.embedding.android.NormalTheme"
+118                android:resource="@style/NormalTheme" />
+119
+120            <!-- Main Launcher Intent Filter -->
+121            <intent-filter>
+122                <action android:name="android.intent.action.MAIN" />
+123
+124                <category android:name="android.intent.category.LAUNCHER" />
+125            </intent-filter>
+126            <intent-filter android:autoVerify="true" >
+127                <action android:name="android.intent.action.VIEW" />
+127-->[com.google.firebase:firebase-auth:22.3.1] /home/mouaz/.gradle/caches/transforms-3/74692cab8ae46d4e243464b6bac656e6/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:36:17-69
+127-->[com.google.firebase:firebase-auth:22.3.1] /home/mouaz/.gradle/caches/transforms-3/74692cab8ae46d4e243464b6bac656e6/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:36:25-66
+128
+129                <category android:name="android.intent.category.DEFAULT" />
+129-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-76
+129-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:29:27-73
+130                <category android:name="android.intent.category.BROWSABLE" />
+130-->[com.google.firebase:firebase-auth:22.3.1] /home/mouaz/.gradle/caches/transforms-3/74692cab8ae46d4e243464b6bac656e6/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:39:17-78
+130-->[com.google.firebase:firebase-auth:22.3.1] /home/mouaz/.gradle/caches/transforms-3/74692cab8ae46d4e243464b6bac656e6/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:39:27-75
+131
+132                <data
+132-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+133                    android:host="contactcars.com"
+134                    android:pathPrefix="/rd"
+135                    android:scheme="https" />
+136                <data
+136-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+137                    android:host="www.contactcars.com"
+138                    android:pathPrefix="/rd"
+139                    android:scheme="https" />
+140q
+141                <data
+141-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+142                    android:host="www.contactcars.com"
+143                    android:pathPrefix="/ar/insurance"
+144                    android:scheme="https" />
+145                <data
+145-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+146                    android:host="www.contactcars.com"
+147                    android:pathPrefix="/ar/instalment"
+148                    android:scheme="https" />
+149                <data
+149-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+150                    android:host="www.contactcars.com"
+151                    android:pathPrefix="/ar/media"
+152                    android:scheme="https" />
+153                <data
+153-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+154                    android:host="www.contactcars.com"
+155                    android:pathPrefix="/ar/dealers"
+156                    android:scheme="https" />
+157                <data
+157-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+158                    android:host="www.contactcars.com"
+159                    android:pathPrefix="/ar/used-cars"
+160                    android:scheme="https" />
+161                <data
+161-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+162                    android:host="www.contactcars.com"
+163                    android:pathPrefix="/ar/new-cars"
+164                    android:scheme="https" />
+165                <data
+165-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+166                    android:host="www.contactcars.com"
+167                    android:pathPrefix="/ar/new-motorcycles"
+168                    android:scheme="https" />
+169                <data
+169-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+170                    android:host="www.contactcars.com"
+171                    android:pathPrefix="/ar/used-motorcycles"
+172                    android:scheme="https" />
+173                <data
+173-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+174                    android:host="www.contactcars.com"
+175                    android:pathPrefix="/ar/sell-car"
+176                    android:scheme="https" />
+177                <data
+177-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+178                    android:host="www.contactcars.com"
+179                    android:pathPrefix="/ar/sell-motorcycle"
+180                    android:scheme="https" />
+181                <data
+181-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+182                    android:host="www.contactcars.com"
+183                    android:pathPrefix="/ar/cars"
+184                    android:scheme="https" />
+185                <data
+185-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+186                    android:host="www.contactcars.com"
+187                    android:pathPrefix="/ar/motorcycles"
+188                    android:scheme="https" />
+189                <data
+189-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+190                    android:host="www.contactcars.com"
+191                    android:pathPrefix="/ar/otlobha"
+192                    android:scheme="https" />
+193                <data
+193-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+194                    android:host="contactcars.com"
+195                    android:pathPrefix="/ar/insurance"
+196                    android:scheme="https" />
+197                <data
+197-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+198                    android:host="contactcars.com"
+199                    android:pathPrefix="/ar/instalment"
+200                    android:scheme="https" />
+201                <data
+201-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+202                    android:host="contactcars.com"
+203                    android:pathPrefix="/ar/media"
+204                    android:scheme="https" />
+205                <data
+205-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+206                    android:host="contactcars.com"
+207                    android:pathPrefix="/ar/dealers"
+208                    android:scheme="https" />
+209                <data
+209-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+210                    android:host="contactcars.com"
+211                    android:pathPrefix="/ar/used-cars"
+212                    android:scheme="https" />
+213                <data
+213-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+214                    android:host="contactcars.com"
+215                    android:pathPrefix="/ar/new-cars"
+216                    android:scheme="https" />
+217                <data
+217-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+218                    android:host="contactcars.com"
+219                    android:pathPrefix="/ar/new-motorcycles"
+220                    android:scheme="https" />
+221                <data
+221-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+222                    android:host="contactcars.com"
+223                    android:pathPrefix="/ar/used-motorcycles"
+224                    android:scheme="https" />
+225                <data
+225-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+226                    android:host="contactcars.com"
+227                    android:pathPrefix="/ar/sell-car"
+228                    android:scheme="https" />
+229                <data
+229-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+230                    android:host="contactcars.com"
+231                    android:pathPrefix="/ar/sell-motorcycle"
+232                    android:scheme="https" />
+233                <data
+233-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+234                    android:host="contactcars.com"
+235                    android:pathPrefix="/ar/cars"
+236                    android:scheme="https" />
+237                <data
+237-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+238                    android:host="contactcars.com"
+239                    android:pathPrefix="/ar/motorcycles"
+240                    android:scheme="https" />
+241                <data
+241-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+242                    android:host="contactcars.com"
+243                    android:pathPrefix="/ar/otlobha"
+244                    android:scheme="https" />
+245                <data
+245-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+246                    android:host="www.contactcars.com"
+247                    android:pathPrefix="/en/insurance"
+248                    android:scheme="https" />
+249                <data
+249-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+250                    android:host="www.contactcars.com"
+251                    android:pathPrefix="/en/instalment"
+252                    android:scheme="https" />
+253                <data
+253-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+254                    android:host="www.contactcars.com"
+255                    android:pathPrefix="/en/media"
+256                    android:scheme="https" />
+257                <data
+257-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+258                    android:host="www.contactcars.com"
+259                    android:pathPrefix="/en/dealers"
+260                    android:scheme="https" />
+261                <data
+261-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+262                    android:host="www.contactcars.com"
+263                    android:pathPrefix="/en/used-cars"
+264                    android:scheme="https" />
+265                <data
+265-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+266                    android:host="www.contactcars.com"
+267                    android:pathPrefix="/en/new-cars"
+268                    android:scheme="https" />
+269                <data
+269-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+270                    android:host="www.contactcars.com"
+271                    android:pathPrefix="/en/new-motorcycles"
+272                    android:scheme="https" />
+273                <data
+273-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+274                    android:host="www.contactcars.com"
+275                    android:pathPrefix="/en/used-motorcycles"
+276                    android:scheme="https" />
+277                <data
+277-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+278                    android:host="www.contactcars.com"
+279                    android:pathPrefix="/en/sell-car"
+280                    android:scheme="https" />
+281                <data
+281-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+282                    android:host="www.contactcars.com"
+283                    android:pathPrefix="/en/sell-motorcycle"
+284                    android:scheme="https" />
+285                <data
+285-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+286                    android:host="www.contactcars.com"
+287                    android:pathPrefix="/en/cars"
+288                    android:scheme="https" />
+289                <data
+289-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+290                    android:host="www.contactcars.com"
+291                    android:pathPrefix="/en/motorcycles"
+292                    android:scheme="https" />
+293                <data
+293-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+294                    android:host="www.contactcars.com"
+295                    android:pathPrefix="/en/otlobha"
+296                    android:scheme="https" />
+297                <data
+297-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+298                    android:host="contactcars.com"
+299                    android:pathPrefix="/en/insurance"
+300                    android:scheme="https" />
+301                <data
+301-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+302                    android:host="contactcars.com"
+303                    android:pathPrefix="/en/instalment"
+304                    android:scheme="https" />
+305                <data
+305-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+306                    android:host="contactcars.com"
+307                    android:pathPrefix="/en/media"
+308                    android:scheme="https" />
+309                <data
+309-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+310                    android:host="contactcars.com"
+311                    android:pathPrefix="/en/dealers"
+312                    android:scheme="https" />
+313                <data
+313-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+314                    android:host="contactcars.com"
+315                    android:pathPrefix="/en/used-cars"
+316                    android:scheme="https" />
+317                <data
+317-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+318                    android:host="contactcars.com"
+319                    android:pathPrefix="/en/new-cars"
+320                    android:scheme="https" />
+321                <data
+321-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+322                    android:host="contactcars.com"
+323                    android:pathPrefix="/en/new-motorcycles"
+324                    android:scheme="https" />
+325                <data
+325-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+326                    android:host="contactcars.com"
+327                    android:pathPrefix="/en/used-motorcycles"
+328                    android:scheme="https" />
+329                <data
+329-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+330                    android:host="contactcars.com"
+331                    android:pathPrefix="/en/sell-car"
+332                    android:scheme="https" />
+333                <data
+333-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+334                    android:host="contactcars.com"
+335                    android:pathPrefix="/en/sell-motorcycle"
+336                    android:scheme="https" />
+337                <data
+337-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+338                    android:host="contactcars.com"
+339                    android:pathPrefix="/en/cars"
+340                    android:scheme="https" />
+341                <data
+341-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+342                    android:host="contactcars.com"
+343                    android:pathPrefix="/en/motorcycles"
+344                    android:scheme="https" />
+345                <data
+345-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+346                    android:host="contactcars.com"
+347                    android:pathPrefix="/en/otlobha"
+348                    android:scheme="https" />
+349            </intent-filter>
+350        </activity>
+351
+352        <!-- Flutter Embedding Meta-Data -->
+353        <meta-data
+354            android:name="flutterEmbedding"
+355            android:value="2" />
+356        <meta-data
+357            android:name="google_analytics_automatic_screen_reporting_enabled"
+358            android:value="true" />
+359        <meta-data
+360            android:name="com.google.android.gms.ads.APPLICATION_ID"
+361            android:value="ca-app-pub-5699148373586466~3411415118" />
+362        <meta-data
+363            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+364            android:value="true" />
+365        <meta-data
+366            android:name="flutter_deeplinking_enabled"
+367            android:value="true" />
+368
+369        <receiver
+369-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-17:39
+370            android:name="me.carda.awesome_notifications.DartNotificationActionReceiver"
+370-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-89
+371            android:exported="true" />
+371-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-36
+372        <receiver
+372-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-20:39
+373            android:name="me.carda.awesome_notifications.DartDismissedNotificationReceiver"
+373-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-92
+374            android:exported="true" />
+374-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-36
+375        <receiver
+375-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:9-23:39
+376            android:name="me.carda.awesome_notifications.DartScheduledNotificationReceiver"
+376-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-92
+377            android:exported="true" />
+377-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-36
+378        <receiver
+378-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:24:9-38:20
+379            android:name="me.carda.awesome_notifications.DartRefreshSchedulesReceiver"
+379-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-87
+380            android:enabled="true"
+380-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-35
+381            android:exported="true" >
+381-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-36
+382            <intent-filter>
+382-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-37:29
+383                <category android:name="android.intent.category.DEFAULT" />
+383-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-76
+383-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:29:27-73
+384
+385                <action android:name="android.intent.action.BOOT_COMPLETED" />
+385-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:31:17-79
+385-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:31:25-76
+386                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+386-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:32:17-86
+386-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:32:25-83
+387                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+387-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:33:17-84
+387-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:33:25-81
+388                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+388-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:34:17-82
+388-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:34:25-79
+389                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+389-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:35:17-82
+389-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:35:25-79
+390                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
+390-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:36:17-107
+390-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:36:25-104
+391            </intent-filter>
+392        </receiver>
+393
+394        <service
+394-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:40:9-43:72
+395            android:name="me.carda.awesome_notifications.DartBackgroundService"
+395-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-80
+396            android:exported="false"
+396-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-37
+397            android:permission="android.permission.BIND_JOB_SERVICE" />
+397-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:43:13-69
+398        <service
+398-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:44:9-49:43
+399            android:name="me.carda.awesome_notifications.core.services.ForegroundService"
+399-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:45:13-90
+400            android:enabled="true"
+400-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:46:13-35
+401            android:exported="false"
+401-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:47:13-37
+402            android:foregroundServiceType="phoneCall"
+402-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:48:13-54
+403            android:stopWithTask="true" />
+403-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:49:13-40
+404        <service
+404-->[:firebase_analytics] /home/mouaz/Desktop/Currency Converter/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-18:19
+405            android:name="com.google.firebase.components.ComponentDiscoveryService"
+405-->[:firebase_analytics] /home/mouaz/Desktop/Currency Converter/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:14:18-89
+406            android:directBootAware="true"
+406-->[com.google.firebase:firebase-common:21.0.0] /home/mouaz/.gradle/caches/transforms-3/22f302e64cf284841103813dc39dad2e/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+407            android:exported="false" >
+407-->[com.google.firebase:firebase-perf:20.5.2] /home/mouaz/.gradle/caches/transforms-3/a50535fbf3f62921ee239c2afc98adce/transformed/jetified-firebase-perf-20.5.2/AndroidManifest.xml:13:13-37
+408            <meta-data
+408-->[:firebase_analytics] /home/mouaz/Desktop/Currency Converter/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:85
+409                android:name="com.google.firebase.components:io.flutter.plugins.firebase.analytics.FlutterFirebaseAppRegistrar"
+409-->[:firebase_analytics] /home/mouaz/Desktop/Currency Converter/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-128
+410                android:value="com.google.firebase.components.ComponentRegistrar" />
+410-->[:firebase_analytics] /home/mouaz/Desktop/Currency Converter/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-82
+411            <meta-data
+411-->[:firebase_auth] /home/mouaz/Desktop/Currency Converter/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+412                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+412-->[:firebase_auth] /home/mouaz/Desktop/Currency Converter/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+413                android:value="com.google.firebase.components.ComponentRegistrar" />
+413-->[:firebase_auth] /home/mouaz/Desktop/Currency Converter/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+414            <meta-data
+414-->[:firebase_crashlytics] /home/mouaz/Desktop/Currency Converter/build/firebase_crashlytics/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+415                android:name="com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar"
+415-->[:firebase_crashlytics] /home/mouaz/Desktop/Currency Converter/build/firebase_crashlytics/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-130
+416                android:value="com.google.firebase.components.ComponentRegistrar" />
+416-->[:firebase_crashlytics] /home/mouaz/Desktop/Currency Converter/build/firebase_crashlytics/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+417            <meta-data
+417-->[:firebase_messaging] /home/mouaz/Desktop/Currency Converter/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-40:85
+418                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+418-->[:firebase_messaging] /home/mouaz/Desktop/Currency Converter/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:39:17-128
+419                android:value="com.google.firebase.components.ComponentRegistrar" />
+419-->[:firebase_messaging] /home/mouaz/Desktop/Currency Converter/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:40:17-82
+420            <meta-data
+420-->[:firebase_performance] /home/mouaz/Desktop/Currency Converter/build/firebase_performance/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:85
+421                android:name="com.google.firebase.components:io.flutter.plugins.firebase.performance.FlutterFirebaseAppRegistrar"
+421-->[:firebase_performance] /home/mouaz/Desktop/Currency Converter/build/firebase_performance/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-130
+422                android:value="com.google.firebase.components.ComponentRegistrar" />
+422-->[:firebase_performance] /home/mouaz/Desktop/Currency Converter/build/firebase_performance/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-82
+423            <meta-data
+423-->[:firebase_remote_config] /home/mouaz/Desktop/Currency Converter/build/firebase_remote_config/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+424                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firebaseremoteconfig.FlutterFirebaseAppRegistrar"
+424-->[:firebase_remote_config] /home/mouaz/Desktop/Currency Converter/build/firebase_remote_config/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-139
+425                android:value="com.google.firebase.components.ComponentRegistrar" />
+425-->[:firebase_remote_config] /home/mouaz/Desktop/Currency Converter/build/firebase_remote_config/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+426            <meta-data
+426-->[:firebase_core] /home/mouaz/Desktop/Currency Converter/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+427                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+427-->[:firebase_core] /home/mouaz/Desktop/Currency Converter/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+428                android:value="com.google.firebase.components.ComponentRegistrar" />
+428-->[:firebase_core] /home/mouaz/Desktop/Currency Converter/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+429            <meta-data
+429-->[com.google.firebase:firebase-perf:20.5.2] /home/mouaz/.gradle/caches/transforms-3/a50535fbf3f62921ee239c2afc98adce/transformed/jetified-firebase-perf-20.5.2/AndroidManifest.xml:14:13-16:85
+430                android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfKtxRegistrar"
+430-->[com.google.firebase:firebase-perf:20.5.2] /home/mouaz/.gradle/caches/transforms-3/a50535fbf3f62921ee239c2afc98adce/transformed/jetified-firebase-perf-20.5.2/AndroidManifest.xml:15:17-112
+431                android:value="com.google.firebase.components.ComponentRegistrar" />
+431-->[com.google.firebase:firebase-perf:20.5.2] /home/mouaz/.gradle/caches/transforms-3/a50535fbf3f62921ee239c2afc98adce/transformed/jetified-firebase-perf-20.5.2/AndroidManifest.xml:16:17-82
+432            <meta-data
+432-->[com.google.firebase:firebase-perf:20.5.2] /home/mouaz/.gradle/caches/transforms-3/a50535fbf3f62921ee239c2afc98adce/transformed/jetified-firebase-perf-20.5.2/AndroidManifest.xml:17:13-19:85
+433                android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar"
+433-->[com.google.firebase:firebase-perf:20.5.2] /home/mouaz/.gradle/caches/transforms-3/a50535fbf3f62921ee239c2afc98adce/transformed/jetified-firebase-perf-20.5.2/AndroidManifest.xml:18:17-109
+434                android:value="com.google.firebase.components.ComponentRegistrar" />
+434-->[com.google.firebase:firebase-perf:20.5.2] /home/mouaz/.gradle/caches/transforms-3/a50535fbf3f62921ee239c2afc98adce/transformed/jetified-firebase-perf-20.5.2/AndroidManifest.xml:19:17-82
+435            <meta-data
+435-->[com.google.firebase:firebase-auth:22.3.1] /home/mouaz/.gradle/caches/transforms-3/74692cab8ae46d4e243464b6bac656e6/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:69:13-71:85
+436                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+436-->[com.google.firebase:firebase-auth:22.3.1] /home/mouaz/.gradle/caches/transforms-3/74692cab8ae46d4e243464b6bac656e6/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:70:17-109
+437                android:value="com.google.firebase.components.ComponentRegistrar" />
+437-->[com.google.firebase:firebase-auth:22.3.1] /home/mouaz/.gradle/caches/transforms-3/74692cab8ae46d4e243464b6bac656e6/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:71:17-82
+438            <meta-data
+438-->[com.google.firebase:firebase-messaging:23.4.1] /home/mouaz/.gradle/caches/transforms-3/504e8dbf7b02d5063f56554e50bfaa7d/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:57:13-59:85
+439                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+439-->[com.google.firebase:firebase-messaging:23.4.1] /home/mouaz/.gradle/caches/transforms-3/504e8dbf7b02d5063f56554e50bfaa7d/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:58:17-122
+440                android:value="com.google.firebase.components.ComponentRegistrar" />
+440-->[com.google.firebase:firebase-messaging:23.4.1] /home/mouaz/.gradle/caches/transforms-3/504e8dbf7b02d5063f56554e50bfaa7d/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:59:17-82
+441            <meta-data
+441-->[com.google.firebase:firebase-messaging:23.4.1] /home/mouaz/.gradle/caches/transforms-3/504e8dbf7b02d5063f56554e50bfaa7d/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:60:13-62:85
+442                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+442-->[com.google.firebase:firebase-messaging:23.4.1] /home/mouaz/.gradle/caches/transforms-3/504e8dbf7b02d5063f56554e50bfaa7d/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:61:17-119
+443                android:value="com.google.firebase.components.ComponentRegistrar" />
+443-->[com.google.firebase:firebase-messaging:23.4.1] /home/mouaz/.gradle/caches/transforms-3/504e8dbf7b02d5063f56554e50bfaa7d/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:62:17-82
+444            <meta-data
+444-->[com.google.android.gms:play-services-measurement-api:22.0.0] /home/mouaz/.gradle/caches/transforms-3/5ed97ee921eb828fced96b61a3613892/transformed/jetified-play-services-measurement-api-22.0.0/AndroidManifest.xml:37:13-39:85
+445                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+445-->[com.google.android.gms:play-services-measurement-api:22.0.0] /home/mouaz/.gradle/caches/transforms-3/5ed97ee921eb828fced96b61a3613892/transformed/jetified-play-services-measurement-api-22.0.0/AndroidManifest.xml:38:17-139
+446                android:value="com.google.firebase.components.ComponentRegistrar" />
+446-->[com.google.android.gms:play-services-measurement-api:22.0.0] /home/mouaz/.gradle/caches/transforms-3/5ed97ee921eb828fced96b61a3613892/transformed/jetified-play-services-measurement-api-22.0.0/AndroidManifest.xml:39:17-82
+447            <meta-data
+447-->[com.google.firebase:firebase-config:21.6.3] /home/mouaz/.gradle/caches/transforms-3/41160993211e71a84e1ad7c4cbd0ec77/transformed/jetified-firebase-config-21.6.3/AndroidManifest.xml:29:13-31:85
+448                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.FirebaseRemoteConfigKtxRegistrar"
+448-->[com.google.firebase:firebase-config:21.6.3] /home/mouaz/.gradle/caches/transforms-3/41160993211e71a84e1ad7c4cbd0ec77/transformed/jetified-firebase-config-21.6.3/AndroidManifest.xml:30:17-128
+449                android:value="com.google.firebase.components.ComponentRegistrar" />
+449-->[com.google.firebase:firebase-config:21.6.3] /home/mouaz/.gradle/caches/transforms-3/41160993211e71a84e1ad7c4cbd0ec77/transformed/jetified-firebase-config-21.6.3/AndroidManifest.xml:31:17-82
+450            <meta-data
+450-->[com.google.firebase:firebase-config:21.6.3] /home/mouaz/.gradle/caches/transforms-3/41160993211e71a84e1ad7c4cbd0ec77/transformed/jetified-firebase-config-21.6.3/AndroidManifest.xml:32:13-34:85
+451                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+451-->[com.google.firebase:firebase-config:21.6.3] /home/mouaz/.gradle/caches/transforms-3/41160993211e71a84e1ad7c4cbd0ec77/transformed/jetified-firebase-config-21.6.3/AndroidManifest.xml:33:17-117
+452                android:value="com.google.firebase.components.ComponentRegistrar" />
+452-->[com.google.firebase:firebase-config:21.6.3] /home/mouaz/.gradle/caches/transforms-3/41160993211e71a84e1ad7c4cbd0ec77/transformed/jetified-firebase-config-21.6.3/AndroidManifest.xml:34:17-82
+453            <meta-data
+453-->[com.google.firebase:firebase-crashlytics:18.6.3] /home/mouaz/.gradle/caches/transforms-3/baadf30756023056715c26763de7d53e/transformed/jetified-firebase-crashlytics-18.6.3/AndroidManifest.xml:15:13-17:85
+454                android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar"
+454-->[com.google.firebase:firebase-crashlytics:18.6.3] /home/mouaz/.gradle/caches/transforms-3/baadf30756023056715c26763de7d53e/transformed/jetified-firebase-crashlytics-18.6.3/AndroidManifest.xml:16:17-126
+455                android:value="com.google.firebase.components.ComponentRegistrar" />
+455-->[com.google.firebase:firebase-crashlytics:18.6.3] /home/mouaz/.gradle/caches/transforms-3/baadf30756023056715c26763de7d53e/transformed/jetified-firebase-crashlytics-18.6.3/AndroidManifest.xml:17:17-82
+456            <meta-data
+456-->[com.google.firebase:firebase-crashlytics:18.6.3] /home/mouaz/.gradle/caches/transforms-3/baadf30756023056715c26763de7d53e/transformed/jetified-firebase-crashlytics-18.6.3/AndroidManifest.xml:18:13-20:85
+457                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+457-->[com.google.firebase:firebase-crashlytics:18.6.3] /home/mouaz/.gradle/caches/transforms-3/baadf30756023056715c26763de7d53e/transformed/jetified-firebase-crashlytics-18.6.3/AndroidManifest.xml:19:17-115
+458                android:value="com.google.firebase.components.ComponentRegistrar" />
+458-->[com.google.firebase:firebase-crashlytics:18.6.3] /home/mouaz/.gradle/caches/transforms-3/baadf30756023056715c26763de7d53e/transformed/jetified-firebase-crashlytics-18.6.3/AndroidManifest.xml:20:17-82
+459            <meta-data
+459-->[com.google.firebase:firebase-sessions:1.2.3] /home/mouaz/.gradle/caches/transforms-3/47d2490cd6a5c120e998b2c29f41108f/transformed/jetified-firebase-sessions-1.2.3/AndroidManifest.xml:29:13-31:85
+460                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
+460-->[com.google.firebase:firebase-sessions:1.2.3] /home/mouaz/.gradle/caches/transforms-3/47d2490cd6a5c120e998b2c29f41108f/transformed/jetified-firebase-sessions-1.2.3/AndroidManifest.xml:30:17-117
+461                android:value="com.google.firebase.components.ComponentRegistrar" />
+461-->[com.google.firebase:firebase-sessions:1.2.3] /home/mouaz/.gradle/caches/transforms-3/47d2490cd6a5c120e998b2c29f41108f/transformed/jetified-firebase-sessions-1.2.3/AndroidManifest.xml:31:17-82
+462            <meta-data
+462-->[com.google.firebase:firebase-installations:17.2.0] /home/mouaz/.gradle/caches/transforms-3/83b177136e55d6c2ddf1414d7cd5702d/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:15:13-17:85
+463                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+463-->[com.google.firebase:firebase-installations:17.2.0] /home/mouaz/.gradle/caches/transforms-3/83b177136e55d6c2ddf1414d7cd5702d/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:16:17-130
+464                android:value="com.google.firebase.components.ComponentRegistrar" />
+464-->[com.google.firebase:firebase-installations:17.2.0] /home/mouaz/.gradle/caches/transforms-3/83b177136e55d6c2ddf1414d7cd5702d/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:17:17-82
+465            <meta-data
+465-->[com.google.firebase:firebase-installations:17.2.0] /home/mouaz/.gradle/caches/transforms-3/83b177136e55d6c2ddf1414d7cd5702d/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:18:13-20:85
+466                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+466-->[com.google.firebase:firebase-installations:17.2.0] /home/mouaz/.gradle/caches/transforms-3/83b177136e55d6c2ddf1414d7cd5702d/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:19:17-127
+467                android:value="com.google.firebase.components.ComponentRegistrar" />
+467-->[com.google.firebase:firebase-installations:17.2.0] /home/mouaz/.gradle/caches/transforms-3/83b177136e55d6c2ddf1414d7cd5702d/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:20:17-82
+468            <meta-data
+468-->[com.google.firebase:firebase-common-ktx:21.0.0] /home/mouaz/.gradle/caches/transforms-3/15dd3e546c3ca07bc028454c95624aa3/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+469                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+469-->[com.google.firebase:firebase-common-ktx:21.0.0] /home/mouaz/.gradle/caches/transforms-3/15dd3e546c3ca07bc028454c95624aa3/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+470                android:value="com.google.firebase.components.ComponentRegistrar" />
+470-->[com.google.firebase:firebase-common-ktx:21.0.0] /home/mouaz/.gradle/caches/transforms-3/15dd3e546c3ca07bc028454c95624aa3/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+471            <meta-data
+471-->[com.google.firebase:firebase-common:21.0.0] /home/mouaz/.gradle/caches/transforms-3/22f302e64cf284841103813dc39dad2e/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+472                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+472-->[com.google.firebase:firebase-common:21.0.0] /home/mouaz/.gradle/caches/transforms-3/22f302e64cf284841103813dc39dad2e/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+473                android:value="com.google.firebase.components.ComponentRegistrar" />
+473-->[com.google.firebase:firebase-common:21.0.0] /home/mouaz/.gradle/caches/transforms-3/22f302e64cf284841103813dc39dad2e/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+474            <meta-data
+474-->[com.google.firebase:firebase-abt:21.1.1] /home/mouaz/.gradle/caches/transforms-3/507b14b71f38bb7332103b29143c89bb/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:12:13-14:85
+475                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+475-->[com.google.firebase:firebase-abt:21.1.1] /home/mouaz/.gradle/caches/transforms-3/507b14b71f38bb7332103b29143c89bb/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:13:17-109
+476                android:value="com.google.firebase.components.ComponentRegistrar" />
+476-->[com.google.firebase:firebase-abt:21.1.1] /home/mouaz/.gradle/caches/transforms-3/507b14b71f38bb7332103b29143c89bb/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:14:17-82
+477            <meta-data
+477-->[com.google.firebase:firebase-datatransport:18.1.8] /home/mouaz/.gradle/caches/transforms-3/13a67f177c89f16109216dcfa0bb0972/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:27:13-29:85
+478                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+478-->[com.google.firebase:firebase-datatransport:18.1.8] /home/mouaz/.gradle/caches/transforms-3/13a67f177c89f16109216dcfa0bb0972/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:28:17-115
+479                android:value="com.google.firebase.components.ComponentRegistrar" />
+479-->[com.google.firebase:firebase-datatransport:18.1.8] /home/mouaz/.gradle/caches/transforms-3/13a67f177c89f16109216dcfa0bb0972/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:29:17-82
+480        </service>
+481        <service
+481-->[:firebase_messaging] /home/mouaz/Desktop/Currency Converter/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-19:72
+482            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+482-->[:firebase_messaging] /home/mouaz/Desktop/Currency Converter/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-107
+483            android:exported="false"
+483-->[:firebase_messaging] /home/mouaz/Desktop/Currency Converter/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+484            android:permission="android.permission.BIND_JOB_SERVICE" />
+484-->[:firebase_messaging] /home/mouaz/Desktop/Currency Converter/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-69
+485        <service
+485-->[:firebase_messaging] /home/mouaz/Desktop/Currency Converter/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-26:19
+486            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+486-->[:firebase_messaging] /home/mouaz/Desktop/Currency Converter/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-97
+487            android:exported="false" >
+487-->[:firebase_messaging] /home/mouaz/Desktop/Currency Converter/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-37
+488            <intent-filter>
+488-->[:firebase_messaging] /home/mouaz/Desktop/Currency Converter/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:29
+489                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+489-->[:firebase_messaging] /home/mouaz/Desktop/Currency Converter/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-78
+489-->[:firebase_messaging] /home/mouaz/Desktop/Currency Converter/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:25-75
+490            </intent-filter>
+491        </service>
+492
+493        <receiver
+493-->[:firebase_messaging] /home/mouaz/Desktop/Currency Converter/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-35:20
+494            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+494-->[:firebase_messaging] /home/mouaz/Desktop/Currency Converter/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-98
+495            android:exported="true"
+495-->[:firebase_messaging] /home/mouaz/Desktop/Currency Converter/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-36
+496            android:permission="com.google.android.c2dm.permission.SEND" >
+496-->[:firebase_messaging] /home/mouaz/Desktop/Currency Converter/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-73
+497            <intent-filter>
+497-->[:firebase_messaging] /home/mouaz/Desktop/Currency Converter/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-34:29
+498                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+498-->[:firebase_messaging] /home/mouaz/Desktop/Currency Converter/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:17-81
+498-->[:firebase_messaging] /home/mouaz/Desktop/Currency Converter/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:25-78
+499            </intent-filter>
+500        </receiver>
+501
+502        <provider
+502-->[:firebase_messaging] /home/mouaz/Desktop/Currency Converter/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:43:9-47:38
+503            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+503-->[:firebase_messaging] /home/mouaz/Desktop/Currency Converter/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:44:13-102
+504            android:authorities="net.sarmady.contactcarswithtabs.test.flutterfirebasemessaginginitprovider"
+504-->[:firebase_messaging] /home/mouaz/Desktop/Currency Converter/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:45:13-88
+505            android:exported="false"
+505-->[:firebase_messaging] /home/mouaz/Desktop/Currency Converter/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:46:13-37
+506            android:initOrder="99" />
+506-->[:firebase_messaging] /home/mouaz/Desktop/Currency Converter/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:47:13-35
+507
+508        <activity
+508-->[:flutter_inappwebview] /home/mouaz/Desktop/Currency Converter/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-20:47
+509            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+509-->[:flutter_inappwebview] /home/mouaz/Desktop/Currency Converter/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-104
+510            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+510-->[:flutter_inappwebview] /home/mouaz/Desktop/Currency Converter/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-137
+511            android:exported="false"
+511-->[:flutter_inappwebview] /home/mouaz/Desktop/Currency Converter/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
+512            android:theme="@style/AppTheme" />
+512-->[:flutter_inappwebview] /home/mouaz/Desktop/Currency Converter/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-44
+513        <activity
+513-->[:flutter_inappwebview] /home/mouaz/Desktop/Currency Converter/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:21:9-24:55
+514            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+514-->[:flutter_inappwebview] /home/mouaz/Desktop/Currency Converter/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-112
+515            android:exported="false"
+515-->[:flutter_inappwebview] /home/mouaz/Desktop/Currency Converter/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-37
+516            android:theme="@style/ThemeTransparent" />
+516-->[:flutter_inappwebview] /home/mouaz/Desktop/Currency Converter/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-52
+517        <activity
+517-->[:flutter_inappwebview] /home/mouaz/Desktop/Currency Converter/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-28:55
+518            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+518-->[:flutter_inappwebview] /home/mouaz/Desktop/Currency Converter/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-106
+519            android:exported="false"
+519-->[:flutter_inappwebview] /home/mouaz/Desktop/Currency Converter/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-37
+520            android:theme="@style/ThemeTransparent" />
+520-->[:flutter_inappwebview] /home/mouaz/Desktop/Currency Converter/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-52
+521        <activity
+521-->[:flutter_inappwebview] /home/mouaz/Desktop/Currency Converter/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:29:9-33:55
+522            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+522-->[:flutter_inappwebview] /home/mouaz/Desktop/Currency Converter/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-126
+523            android:exported="false"
+523-->[:flutter_inappwebview] /home/mouaz/Desktop/Currency Converter/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-37
+524            android:launchMode="singleInstance"
+524-->[:flutter_inappwebview] /home/mouaz/Desktop/Currency Converter/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-48
+525            android:theme="@style/ThemeTransparent" />
+525-->[:flutter_inappwebview] /home/mouaz/Desktop/Currency Converter/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-52
+526        <activity
+526-->[:flutter_inappwebview] /home/mouaz/Desktop/Currency Converter/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-38:55
+527            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+527-->[:flutter_inappwebview] /home/mouaz/Desktop/Currency Converter/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-120
+528            android:exported="false"
+528-->[:flutter_inappwebview] /home/mouaz/Desktop/Currency Converter/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-37
+529            android:launchMode="singleInstance"
+529-->[:flutter_inappwebview] /home/mouaz/Desktop/Currency Converter/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-48
+530            android:theme="@style/ThemeTransparent" />
+530-->[:flutter_inappwebview] /home/mouaz/Desktop/Currency Converter/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-52
+531
+532        <receiver
+532-->[:flutter_inappwebview] /home/mouaz/Desktop/Currency Converter/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:40:9-43:40
+533            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+533-->[:flutter_inappwebview] /home/mouaz/Desktop/Currency Converter/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-111
+534            android:enabled="true"
+534-->[:flutter_inappwebview] /home/mouaz/Desktop/Currency Converter/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-35
+535            android:exported="false" />
+535-->[:flutter_inappwebview] /home/mouaz/Desktop/Currency Converter/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:43:13-37
+536
+537        <meta-data
+537-->[:flutter_inappwebview] /home/mouaz/Desktop/Currency Converter/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:45:9-47:36
+538            android:name="io.flutter.embedded_views_preview"
+538-->[:flutter_inappwebview] /home/mouaz/Desktop/Currency Converter/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:46:13-61
+539            android:value="true" />
+539-->[:flutter_inappwebview] /home/mouaz/Desktop/Currency Converter/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:47:13-33
+540
+541        <provider
+541-->[:image_picker_android] /home/mouaz/Desktop/Currency Converter/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-19:20
+542            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+542-->[:image_picker_android] /home/mouaz/Desktop/Currency Converter/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-82
+543            android:authorities="net.sarmady.contactcarswithtabs.test.flutter.image_provider"
+543-->[:image_picker_android] /home/mouaz/Desktop/Currency Converter/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-74
+544            android:exported="false"
+544-->[:image_picker_android] /home/mouaz/Desktop/Currency Converter/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-37
+545            android:grantUriPermissions="true" >
+545-->[:image_picker_android] /home/mouaz/Desktop/Currency Converter/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-47
+546            <meta-data
+546-->[:image_picker_android] /home/mouaz/Desktop/Currency Converter/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-18:75
+547                android:name="android.support.FILE_PROVIDER_PATHS"
+547-->[:image_picker_android] /home/mouaz/Desktop/Currency Converter/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-67
+548                android:resource="@xml/flutter_image_picker_file_paths" />
+548-->[:image_picker_android] /home/mouaz/Desktop/Currency Converter/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:18:17-72
+549        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
+550        <service
+550-->[:image_picker_android] /home/mouaz/Desktop/Currency Converter/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:21:9-33:19
+551            android:name="com.google.android.gms.metadata.ModuleDependencies"
+551-->[:image_picker_android] /home/mouaz/Desktop/Currency Converter/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-78
+552            android:enabled="false"
+552-->[:image_picker_android] /home/mouaz/Desktop/Currency Converter/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-36
+553            android:exported="false" >
+553-->[:image_picker_android] /home/mouaz/Desktop/Currency Converter/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-37
+554            <intent-filter>
+554-->[:image_picker_android] /home/mouaz/Desktop/Currency Converter/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-28:29
+555                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+555-->[:image_picker_android] /home/mouaz/Desktop/Currency Converter/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:27:17-94
+555-->[:image_picker_android] /home/mouaz/Desktop/Currency Converter/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:27:25-91
+556            </intent-filter>
+557
+558            <meta-data
+558-->[:image_picker_android] /home/mouaz/Desktop/Currency Converter/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-32:36
+559                android:name="photopicker_activity:0:required"
+559-->[:image_picker_android] /home/mouaz/Desktop/Currency Converter/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:31:17-63
+560                android:value="" />
+560-->[:image_picker_android] /home/mouaz/Desktop/Currency Converter/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:32:17-33
+561        </service>
+562        <service
+562-->[:geolocator_android] /home/mouaz/Desktop/Currency Converter/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:56
+563            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+563-->[:geolocator_android] /home/mouaz/Desktop/Currency Converter/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-77
+564            android:enabled="true"
+564-->[:geolocator_android] /home/mouaz/Desktop/Currency Converter/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-35
+565            android:exported="false"
+565-->[:geolocator_android] /home/mouaz/Desktop/Currency Converter/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+566            android:foregroundServiceType="location" />
+566-->[:geolocator_android] /home/mouaz/Desktop/Currency Converter/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-53
+567        <!--
+568           Declares a provider which allows us to store files to share in
+569           '.../caches/share_plus' and grant the receiving action access
+570        -->
+571        <provider
+571-->[:share_plus] /home/mouaz/Desktop/Currency Converter/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-23:20
+572            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+572-->[:share_plus] /home/mouaz/Desktop/Currency Converter/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-77
+573            android:authorities="net.sarmady.contactcarswithtabs.test.flutter.share_provider"
+573-->[:share_plus] /home/mouaz/Desktop/Currency Converter/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-74
+574            android:exported="false"
+574-->[:share_plus] /home/mouaz/Desktop/Currency Converter/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+575            android:grantUriPermissions="true" >
+575-->[:share_plus] /home/mouaz/Desktop/Currency Converter/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-47
+576            <meta-data
+576-->[:image_picker_android] /home/mouaz/Desktop/Currency Converter/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-18:75
+577                android:name="android.support.FILE_PROVIDER_PATHS"
+577-->[:image_picker_android] /home/mouaz/Desktop/Currency Converter/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-67
+578                android:resource="@xml/flutter_share_file_paths" />
+578-->[:image_picker_android] /home/mouaz/Desktop/Currency Converter/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:18:17-72
+579        </provider>
+580        <!--
+581           This manifest declared broadcast receiver allows us to use an explicit
+582           Intent when creating a PendingItent to be informed of the user's choice
+583        -->
+584        <receiver
+584-->[:share_plus] /home/mouaz/Desktop/Currency Converter/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-34:20
+585            android:name="dev.fluttercommunity.plus.share.SharePlusPendingIntent"
+585-->[:share_plus] /home/mouaz/Desktop/Currency Converter/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-82
+586            android:exported="false" >
+586-->[:share_plus] /home/mouaz/Desktop/Currency Converter/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-37
+587            <intent-filter>
+587-->[:share_plus] /home/mouaz/Desktop/Currency Converter/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-33:29
+588                <action android:name="EXTRA_CHOSEN_COMPONENT" />
+588-->[:share_plus] /home/mouaz/Desktop/Currency Converter/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:32:17-65
+588-->[:share_plus] /home/mouaz/Desktop/Currency Converter/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:32:25-62
+589            </intent-filter>
+590        </receiver>
+591
+592        <activity
+592-->[:url_launcher_android] /home/mouaz/Desktop/Currency Converter/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:74
+593            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+593-->[:url_launcher_android] /home/mouaz/Desktop/Currency Converter/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+594            android:exported="false"
+594-->[:url_launcher_android] /home/mouaz/Desktop/Currency Converter/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+595            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+595-->[:url_launcher_android] /home/mouaz/Desktop/Currency Converter/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
+596        <activity
+596-->[com.github.chuckerteam.chucker:library:3.5.2] /home/mouaz/.gradle/caches/transforms-3/cbf324a7613bf22032aa4b01f9e7a6a7/transformed/jetified-library-3.5.2/AndroidManifest.xml:16:9-21:52
+597            android:name="com.chuckerteam.chucker.internal.ui.MainActivity"
+597-->[com.github.chuckerteam.chucker:library:3.5.2] /home/mouaz/.gradle/caches/transforms-3/cbf324a7613bf22032aa4b01f9e7a6a7/transformed/jetified-library-3.5.2/AndroidManifest.xml:17:13-76
+598            android:label="@string/chucker_name"
+598-->[com.github.chuckerteam.chucker:library:3.5.2] /home/mouaz/.gradle/caches/transforms-3/cbf324a7613bf22032aa4b01f9e7a6a7/transformed/jetified-library-3.5.2/AndroidManifest.xml:18:13-49
+599            android:launchMode="singleTask"
+599-->[com.github.chuckerteam.chucker:library:3.5.2] /home/mouaz/.gradle/caches/transforms-3/cbf324a7613bf22032aa4b01f9e7a6a7/transformed/jetified-library-3.5.2/AndroidManifest.xml:19:13-44
+600            android:taskAffinity="com.chuckerteam.chucker.task"
+600-->[com.github.chuckerteam.chucker:library:3.5.2] /home/mouaz/.gradle/caches/transforms-3/cbf324a7613bf22032aa4b01f9e7a6a7/transformed/jetified-library-3.5.2/AndroidManifest.xml:20:13-64
+601            android:theme="@style/Chucker.Theme" />
+601-->[com.github.chuckerteam.chucker:library:3.5.2] /home/mouaz/.gradle/caches/transforms-3/cbf324a7613bf22032aa4b01f9e7a6a7/transformed/jetified-library-3.5.2/AndroidManifest.xml:21:13-49
+602        <activity
+602-->[com.github.chuckerteam.chucker:library:3.5.2] /home/mouaz/.gradle/caches/transforms-3/cbf324a7613bf22032aa4b01f9e7a6a7/transformed/jetified-library-3.5.2/AndroidManifest.xml:22:9-25:52
+603            android:name="com.chuckerteam.chucker.internal.ui.transaction.TransactionActivity"
+603-->[com.github.chuckerteam.chucker:library:3.5.2] /home/mouaz/.gradle/caches/transforms-3/cbf324a7613bf22032aa4b01f9e7a6a7/transformed/jetified-library-3.5.2/AndroidManifest.xml:23:13-95
+604            android:parentActivityName="com.chuckerteam.chucker.internal.ui.MainActivity"
+604-->[com.github.chuckerteam.chucker:library:3.5.2] /home/mouaz/.gradle/caches/transforms-3/cbf324a7613bf22032aa4b01f9e7a6a7/transformed/jetified-library-3.5.2/AndroidManifest.xml:24:13-90
+605            android:theme="@style/Chucker.Theme" />
+605-->[com.github.chuckerteam.chucker:library:3.5.2] /home/mouaz/.gradle/caches/transforms-3/cbf324a7613bf22032aa4b01f9e7a6a7/transformed/jetified-library-3.5.2/AndroidManifest.xml:25:13-49
+606        <activity
+606-->[com.github.chuckerteam.chucker:library:3.5.2] /home/mouaz/.gradle/caches/transforms-3/cbf324a7613bf22032aa4b01f9e7a6a7/transformed/jetified-library-3.5.2/AndroidManifest.xml:26:9-29:52
+607            android:name="com.chuckerteam.chucker.internal.ui.throwable.ThrowableActivity"
+607-->[com.github.chuckerteam.chucker:library:3.5.2] /home/mouaz/.gradle/caches/transforms-3/cbf324a7613bf22032aa4b01f9e7a6a7/transformed/jetified-library-3.5.2/AndroidManifest.xml:27:13-91
+608            android:parentActivityName="com.chuckerteam.chucker.internal.ui.MainActivity"
+608-->[com.github.chuckerteam.chucker:library:3.5.2] /home/mouaz/.gradle/caches/transforms-3/cbf324a7613bf22032aa4b01f9e7a6a7/transformed/jetified-library-3.5.2/AndroidManifest.xml:28:13-90
+609            android:theme="@style/Chucker.Theme" />
+609-->[com.github.chuckerteam.chucker:library:3.5.2] /home/mouaz/.gradle/caches/transforms-3/cbf324a7613bf22032aa4b01f9e7a6a7/transformed/jetified-library-3.5.2/AndroidManifest.xml:29:13-49
+610
+611        <service
+611-->[com.github.chuckerteam.chucker:library:3.5.2] /home/mouaz/.gradle/caches/transforms-3/cbf324a7613bf22032aa4b01f9e7a6a7/transformed/jetified-library-3.5.2/AndroidManifest.xml:31:9-33:40
+612            android:name="com.chuckerteam.chucker.internal.support.ClearDatabaseService"
+612-->[com.github.chuckerteam.chucker:library:3.5.2] /home/mouaz/.gradle/caches/transforms-3/cbf324a7613bf22032aa4b01f9e7a6a7/transformed/jetified-library-3.5.2/AndroidManifest.xml:32:13-89
+613            android:exported="false" />
+613-->[com.github.chuckerteam.chucker:library:3.5.2] /home/mouaz/.gradle/caches/transforms-3/cbf324a7613bf22032aa4b01f9e7a6a7/transformed/jetified-library-3.5.2/AndroidManifest.xml:33:13-37
+614
+615        <provider
+615-->[com.github.chuckerteam.chucker:library:3.5.2] /home/mouaz/.gradle/caches/transforms-3/cbf324a7613bf22032aa4b01f9e7a6a7/transformed/jetified-library-3.5.2/AndroidManifest.xml:35:9-43:20
+616            android:name="com.chuckerteam.chucker.internal.support.ChuckerFileProvider"
+616-->[com.github.chuckerteam.chucker:library:3.5.2] /home/mouaz/.gradle/caches/transforms-3/cbf324a7613bf22032aa4b01f9e7a6a7/transformed/jetified-library-3.5.2/AndroidManifest.xml:36:13-88
+617            android:authorities="net.sarmady.contactcarswithtabs.test.com.chuckerteam.chucker.provider"
+617-->[com.github.chuckerteam.chucker:library:3.5.2] /home/mouaz/.gradle/caches/transforms-3/cbf324a7613bf22032aa4b01f9e7a6a7/transformed/jetified-library-3.5.2/AndroidManifest.xml:37:13-84
+618            android:exported="false"
+618-->[com.github.chuckerteam.chucker:library:3.5.2] /home/mouaz/.gradle/caches/transforms-3/cbf324a7613bf22032aa4b01f9e7a6a7/transformed/jetified-library-3.5.2/AndroidManifest.xml:38:13-37
+619            android:grantUriPermissions="true" >
+619-->[com.github.chuckerteam.chucker:library:3.5.2] /home/mouaz/.gradle/caches/transforms-3/cbf324a7613bf22032aa4b01f9e7a6a7/transformed/jetified-library-3.5.2/AndroidManifest.xml:39:13-47
+620            <meta-data
+620-->[:image_picker_android] /home/mouaz/Desktop/Currency Converter/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-18:75
+621                android:name="android.support.FILE_PROVIDER_PATHS"
+621-->[:image_picker_android] /home/mouaz/Desktop/Currency Converter/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-67
+622                android:resource="@xml/chucker_provider_paths" />
+622-->[:image_picker_android] /home/mouaz/Desktop/Currency Converter/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:18:17-72
+623        </provider>
+624
+625        <service
+625-->[me.carda:AndroidAwnCore:0.8.3] /home/mouaz/.gradle/caches/transforms-3/b14f62cf6f3510fe931c740131e302d8/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:21:9-28:19
+626            android:name="me.carda.awesome_notifications.core.managers.StatusBarManager"
+626-->[me.carda:AndroidAwnCore:0.8.3] /home/mouaz/.gradle/caches/transforms-3/b14f62cf6f3510fe931c740131e302d8/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:22:13-89
+627            android:exported="true"
+627-->[me.carda:AndroidAwnCore:0.8.3] /home/mouaz/.gradle/caches/transforms-3/b14f62cf6f3510fe931c740131e302d8/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:23:13-36
+628            android:label="My Notification Listener Service" >
+628-->[me.carda:AndroidAwnCore:0.8.3] /home/mouaz/.gradle/caches/transforms-3/b14f62cf6f3510fe931c740131e302d8/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:24:13-61
+629            <intent-filter>
+629-->[me.carda:AndroidAwnCore:0.8.3] /home/mouaz/.gradle/caches/transforms-3/b14f62cf6f3510fe931c740131e302d8/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:25:13-27:29
+630                <action android:name="android.service.notification.NotificationListenerService" />
+630-->[me.carda:AndroidAwnCore:0.8.3] /home/mouaz/.gradle/caches/transforms-3/b14f62cf6f3510fe931c740131e302d8/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:26:17-99
+630-->[me.carda:AndroidAwnCore:0.8.3] /home/mouaz/.gradle/caches/transforms-3/b14f62cf6f3510fe931c740131e302d8/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:26:25-96
+631            </intent-filter>
+632        </service>
+633
+634        <activity
+634-->[com.google.android.gms:play-services-auth:21.0.0] /home/mouaz/.gradle/caches/transforms-3/2eee13eb14b5a3f9a892bc2fa18ec267/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:23:9-27:75
+635            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+635-->[com.google.android.gms:play-services-auth:21.0.0] /home/mouaz/.gradle/caches/transforms-3/2eee13eb14b5a3f9a892bc2fa18ec267/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:24:13-93
+636            android:excludeFromRecents="true"
+636-->[com.google.android.gms:play-services-auth:21.0.0] /home/mouaz/.gradle/caches/transforms-3/2eee13eb14b5a3f9a892bc2fa18ec267/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:25:13-46
+637            android:exported="false"
+637-->[com.google.android.gms:play-services-auth:21.0.0] /home/mouaz/.gradle/caches/transforms-3/2eee13eb14b5a3f9a892bc2fa18ec267/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:26:13-37
+638            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+638-->[com.google.android.gms:play-services-auth:21.0.0] /home/mouaz/.gradle/caches/transforms-3/2eee13eb14b5a3f9a892bc2fa18ec267/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:27:13-72
+639        <!--
+640            Service handling Google Sign-In user revocation. For apps that do not integrate with
+641            Google Sign-In, this service will never be started.
+642        -->
+643        <service
+643-->[com.google.android.gms:play-services-auth:21.0.0] /home/mouaz/.gradle/caches/transforms-3/2eee13eb14b5a3f9a892bc2fa18ec267/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:33:9-37:51
+644            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+644-->[com.google.android.gms:play-services-auth:21.0.0] /home/mouaz/.gradle/caches/transforms-3/2eee13eb14b5a3f9a892bc2fa18ec267/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:34:13-89
+645            android:exported="true"
+645-->[com.google.android.gms:play-services-auth:21.0.0] /home/mouaz/.gradle/caches/transforms-3/2eee13eb14b5a3f9a892bc2fa18ec267/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:35:13-36
+646            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+646-->[com.google.android.gms:play-services-auth:21.0.0] /home/mouaz/.gradle/caches/transforms-3/2eee13eb14b5a3f9a892bc2fa18ec267/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:36:13-107
+647            android:visibleToInstantApps="true" />
+647-->[com.google.android.gms:play-services-auth:21.0.0] /home/mouaz/.gradle/caches/transforms-3/2eee13eb14b5a3f9a892bc2fa18ec267/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:37:13-48
+648
+649        <activity
+649-->[com.google.firebase:firebase-auth:22.3.1] /home/mouaz/.gradle/caches/transforms-3/74692cab8ae46d4e243464b6bac656e6/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:29:9-46:20
+650            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+650-->[com.google.firebase:firebase-auth:22.3.1] /home/mouaz/.gradle/caches/transforms-3/74692cab8ae46d4e243464b6bac656e6/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:30:13-80
+651            android:excludeFromRecents="true"
+651-->[com.google.firebase:firebase-auth:22.3.1] /home/mouaz/.gradle/caches/transforms-3/74692cab8ae46d4e243464b6bac656e6/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:31:13-46
+652            android:exported="true"
+652-->[com.google.firebase:firebase-auth:22.3.1] /home/mouaz/.gradle/caches/transforms-3/74692cab8ae46d4e243464b6bac656e6/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:32:13-36
+653            android:launchMode="singleTask"
+653-->[com.google.firebase:firebase-auth:22.3.1] /home/mouaz/.gradle/caches/transforms-3/74692cab8ae46d4e243464b6bac656e6/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:33:13-44
+654            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+654-->[com.google.firebase:firebase-auth:22.3.1] /home/mouaz/.gradle/caches/transforms-3/74692cab8ae46d4e243464b6bac656e6/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:34:13-72
+655            <intent-filter>
+655-->[com.google.firebase:firebase-auth:22.3.1] /home/mouaz/.gradle/caches/transforms-3/74692cab8ae46d4e243464b6bac656e6/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:35:13-45:29
+656                <action android:name="android.intent.action.VIEW" />
+656-->[com.google.firebase:firebase-auth:22.3.1] /home/mouaz/.gradle/caches/transforms-3/74692cab8ae46d4e243464b6bac656e6/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:36:17-69
+656-->[com.google.firebase:firebase-auth:22.3.1] /home/mouaz/.gradle/caches/transforms-3/74692cab8ae46d4e243464b6bac656e6/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:36:25-66
+657
+658                <category android:name="android.intent.category.DEFAULT" />
+658-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-76
+658-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:29:27-73
+659                <category android:name="android.intent.category.BROWSABLE" />
+659-->[com.google.firebase:firebase-auth:22.3.1] /home/mouaz/.gradle/caches/transforms-3/74692cab8ae46d4e243464b6bac656e6/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:39:17-78
+659-->[com.google.firebase:firebase-auth:22.3.1] /home/mouaz/.gradle/caches/transforms-3/74692cab8ae46d4e243464b6bac656e6/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:39:27-75
+660
+661                <data
+661-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+662                    android:host="firebase.auth"
+663                    android:path="/"
+664                    android:scheme="genericidp" />
+665            </intent-filter>
+666        </activity>
+667        <activity
+667-->[com.google.firebase:firebase-auth:22.3.1] /home/mouaz/.gradle/caches/transforms-3/74692cab8ae46d4e243464b6bac656e6/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:47:9-64:20
+668            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+668-->[com.google.firebase:firebase-auth:22.3.1] /home/mouaz/.gradle/caches/transforms-3/74692cab8ae46d4e243464b6bac656e6/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:48:13-79
+669            android:excludeFromRecents="true"
+669-->[com.google.firebase:firebase-auth:22.3.1] /home/mouaz/.gradle/caches/transforms-3/74692cab8ae46d4e243464b6bac656e6/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:49:13-46
+670            android:exported="true"
+670-->[com.google.firebase:firebase-auth:22.3.1] /home/mouaz/.gradle/caches/transforms-3/74692cab8ae46d4e243464b6bac656e6/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:50:13-36
+671            android:launchMode="singleTask"
+671-->[com.google.firebase:firebase-auth:22.3.1] /home/mouaz/.gradle/caches/transforms-3/74692cab8ae46d4e243464b6bac656e6/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:51:13-44
+672            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+672-->[com.google.firebase:firebase-auth:22.3.1] /home/mouaz/.gradle/caches/transforms-3/74692cab8ae46d4e243464b6bac656e6/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:52:13-72
+673            <intent-filter>
+673-->[com.google.firebase:firebase-auth:22.3.1] /home/mouaz/.gradle/caches/transforms-3/74692cab8ae46d4e243464b6bac656e6/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:53:13-63:29
+674                <action android:name="android.intent.action.VIEW" />
+674-->[com.google.firebase:firebase-auth:22.3.1] /home/mouaz/.gradle/caches/transforms-3/74692cab8ae46d4e243464b6bac656e6/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:36:17-69
+674-->[com.google.firebase:firebase-auth:22.3.1] /home/mouaz/.gradle/caches/transforms-3/74692cab8ae46d4e243464b6bac656e6/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:36:25-66
+675
+676                <category android:name="android.intent.category.DEFAULT" />
+676-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-76
+676-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:29:27-73
+677                <category android:name="android.intent.category.BROWSABLE" />
+677-->[com.google.firebase:firebase-auth:22.3.1] /home/mouaz/.gradle/caches/transforms-3/74692cab8ae46d4e243464b6bac656e6/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:39:17-78
+677-->[com.google.firebase:firebase-auth:22.3.1] /home/mouaz/.gradle/caches/transforms-3/74692cab8ae46d4e243464b6bac656e6/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:39:27-75
+678
+679                <data
+679-->[:file_picker] /home/mouaz/Desktop/Currency Converter/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+680                    android:host="firebase.auth"
+681                    android:path="/"
+682                    android:scheme="recaptcha" />
+683            </intent-filter>
+684        </activity>
+685
+686        <receiver
+686-->[com.google.firebase:firebase-messaging:23.4.1] /home/mouaz/.gradle/caches/transforms-3/504e8dbf7b02d5063f56554e50bfaa7d/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:29:9-40:20
+687            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+687-->[com.google.firebase:firebase-messaging:23.4.1] /home/mouaz/.gradle/caches/transforms-3/504e8dbf7b02d5063f56554e50bfaa7d/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:30:13-78
+688            android:exported="true"
+688-->[com.google.firebase:firebase-messaging:23.4.1] /home/mouaz/.gradle/caches/transforms-3/504e8dbf7b02d5063f56554e50bfaa7d/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:31:13-36
+689            android:permission="com.google.android.c2dm.permission.SEND" >
+689-->[com.google.firebase:firebase-messaging:23.4.1] /home/mouaz/.gradle/caches/transforms-3/504e8dbf7b02d5063f56554e50bfaa7d/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:32:13-73
+690            <intent-filter>
+690-->[:firebase_messaging] /home/mouaz/Desktop/Currency Converter/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-34:29
+691                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+691-->[:firebase_messaging] /home/mouaz/Desktop/Currency Converter/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:17-81
+691-->[:firebase_messaging] /home/mouaz/Desktop/Currency Converter/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:25-78
+692            </intent-filter>
+693
+694            <meta-data
+694-->[com.google.firebase:firebase-messaging:23.4.1] /home/mouaz/.gradle/caches/transforms-3/504e8dbf7b02d5063f56554e50bfaa7d/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:37:13-39:40
+695                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+695-->[com.google.firebase:firebase-messaging:23.4.1] /home/mouaz/.gradle/caches/transforms-3/504e8dbf7b02d5063f56554e50bfaa7d/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:38:17-92
+696                android:value="true" />
+696-->[com.google.firebase:firebase-messaging:23.4.1] /home/mouaz/.gradle/caches/transforms-3/504e8dbf7b02d5063f56554e50bfaa7d/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:39:17-37
+697        </receiver>
+698        <!--
+699             FirebaseMessagingService performs security checks at runtime,
+700             but set to not exported to explicitly avoid allowing another app to call it.
+701        -->
+702        <service
+702-->[com.google.firebase:firebase-messaging:23.4.1] /home/mouaz/.gradle/caches/transforms-3/504e8dbf7b02d5063f56554e50bfaa7d/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:46:9-53:19
+703            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+703-->[com.google.firebase:firebase-messaging:23.4.1] /home/mouaz/.gradle/caches/transforms-3/504e8dbf7b02d5063f56554e50bfaa7d/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:47:13-82
+704            android:directBootAware="true"
+704-->[com.google.firebase:firebase-messaging:23.4.1] /home/mouaz/.gradle/caches/transforms-3/504e8dbf7b02d5063f56554e50bfaa7d/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:48:13-43
+705            android:exported="false" >
+705-->[com.google.firebase:firebase-messaging:23.4.1] /home/mouaz/.gradle/caches/transforms-3/504e8dbf7b02d5063f56554e50bfaa7d/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:49:13-37
+706            <intent-filter android:priority="-500" >
+706-->[:firebase_messaging] /home/mouaz/Desktop/Currency Converter/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:29
+707                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+707-->[:firebase_messaging] /home/mouaz/Desktop/Currency Converter/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-78
+707-->[:firebase_messaging] /home/mouaz/Desktop/Currency Converter/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:25-75
+708            </intent-filter>
+709        </service>
+710
+711        <activity
+711-->[com.google.android.gms:play-services-base:18.3.0] /home/mouaz/.gradle/caches/transforms-3/1c0afaf26e9b2a84455fbd211bbe2e73/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:20:9-22:45
+712            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+712-->[com.google.android.gms:play-services-base:18.3.0] /home/mouaz/.gradle/caches/transforms-3/1c0afaf26e9b2a84455fbd211bbe2e73/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:20:19-85
+713            android:exported="false"
+713-->[com.google.android.gms:play-services-base:18.3.0] /home/mouaz/.gradle/caches/transforms-3/1c0afaf26e9b2a84455fbd211bbe2e73/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:22:19-43
+714            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+714-->[com.google.android.gms:play-services-base:18.3.0] /home/mouaz/.gradle/caches/transforms-3/1c0afaf26e9b2a84455fbd211bbe2e73/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:21:19-78
+715        <activity
+715-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/mouaz/.gradle/caches/transforms-3/7f6e82b3f9c1c80b0d76a6039ea02933/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:56:9-61:43
+716            android:name="com.google.android.gms.ads.AdActivity"
+716-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/mouaz/.gradle/caches/transforms-3/7f6e82b3f9c1c80b0d76a6039ea02933/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:57:13-65
+717            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+717-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/mouaz/.gradle/caches/transforms-3/7f6e82b3f9c1c80b0d76a6039ea02933/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:58:13-122
+718            android:exported="false"
+718-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/mouaz/.gradle/caches/transforms-3/7f6e82b3f9c1c80b0d76a6039ea02933/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:59:13-37
+719            android:theme="@android:style/Theme.Translucent" />
+719-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/mouaz/.gradle/caches/transforms-3/7f6e82b3f9c1c80b0d76a6039ea02933/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:60:13-61
+720
+721        <provider
+721-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/mouaz/.gradle/caches/transforms-3/7f6e82b3f9c1c80b0d76a6039ea02933/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:63:9-68:43
+722            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+722-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/mouaz/.gradle/caches/transforms-3/7f6e82b3f9c1c80b0d76a6039ea02933/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:64:13-76
+723            android:authorities="net.sarmady.contactcarswithtabs.test.mobileadsinitprovider"
+723-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/mouaz/.gradle/caches/transforms-3/7f6e82b3f9c1c80b0d76a6039ea02933/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:65:13-73
+724            android:exported="false"
+724-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/mouaz/.gradle/caches/transforms-3/7f6e82b3f9c1c80b0d76a6039ea02933/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:66:13-37
+725            android:initOrder="100" />
+725-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/mouaz/.gradle/caches/transforms-3/7f6e82b3f9c1c80b0d76a6039ea02933/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:67:13-36
+726
+727        <service
+727-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/mouaz/.gradle/caches/transforms-3/7f6e82b3f9c1c80b0d76a6039ea02933/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:70:9-74:43
+728            android:name="com.google.android.gms.ads.AdService"
+728-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/mouaz/.gradle/caches/transforms-3/7f6e82b3f9c1c80b0d76a6039ea02933/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:71:13-64
+729            android:enabled="true"
+729-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/mouaz/.gradle/caches/transforms-3/7f6e82b3f9c1c80b0d76a6039ea02933/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:72:13-35
+730            android:exported="false" />
+730-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/mouaz/.gradle/caches/transforms-3/7f6e82b3f9c1c80b0d76a6039ea02933/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:73:13-37
+731
+732        <activity
+732-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/mouaz/.gradle/caches/transforms-3/7f6e82b3f9c1c80b0d76a6039ea02933/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:76:9-80:43
+733            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
+733-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/mouaz/.gradle/caches/transforms-3/7f6e82b3f9c1c80b0d76a6039ea02933/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:77:13-82
+734            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+734-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/mouaz/.gradle/caches/transforms-3/7f6e82b3f9c1c80b0d76a6039ea02933/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:78:13-122
+735            android:exported="false" />
+735-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/mouaz/.gradle/caches/transforms-3/7f6e82b3f9c1c80b0d76a6039ea02933/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:79:13-37
+736
+737        <property
+737-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/mouaz/.gradle/caches/transforms-3/7f6e82b3f9c1c80b0d76a6039ea02933/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:82:9-84:62
+738            android:name="android.adservices.AD_SERVICES_CONFIG"
+738-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/mouaz/.gradle/caches/transforms-3/7f6e82b3f9c1c80b0d76a6039ea02933/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:83:13-65
+739            android:resource="@xml/gma_ad_services_config" />
+739-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/mouaz/.gradle/caches/transforms-3/7f6e82b3f9c1c80b0d76a6039ea02933/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:84:13-59
+740
+741        <receiver
+741-->[com.google.android.gms:play-services-measurement:22.0.0] /home/mouaz/.gradle/caches/transforms-3/6a56b7111965497f6949cff630432c27/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:29:9-33:20
+742            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+742-->[com.google.android.gms:play-services-measurement:22.0.0] /home/mouaz/.gradle/caches/transforms-3/6a56b7111965497f6949cff630432c27/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:30:13-85
+743            android:enabled="true"
+743-->[com.google.android.gms:play-services-measurement:22.0.0] /home/mouaz/.gradle/caches/transforms-3/6a56b7111965497f6949cff630432c27/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:31:13-35
+744            android:exported="false" >
+744-->[com.google.android.gms:play-services-measurement:22.0.0] /home/mouaz/.gradle/caches/transforms-3/6a56b7111965497f6949cff630432c27/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:32:13-37
+745        </receiver>
+746
+747        <service
+747-->[com.google.android.gms:play-services-measurement:22.0.0] /home/mouaz/.gradle/caches/transforms-3/6a56b7111965497f6949cff630432c27/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:35:9-38:40
+748            android:name="com.google.android.gms.measurement.AppMeasurementService"
+748-->[com.google.android.gms:play-services-measurement:22.0.0] /home/mouaz/.gradle/caches/transforms-3/6a56b7111965497f6949cff630432c27/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:36:13-84
+749            android:enabled="true"
+749-->[com.google.android.gms:play-services-measurement:22.0.0] /home/mouaz/.gradle/caches/transforms-3/6a56b7111965497f6949cff630432c27/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:37:13-35
+750            android:exported="false" />
+750-->[com.google.android.gms:play-services-measurement:22.0.0] /home/mouaz/.gradle/caches/transforms-3/6a56b7111965497f6949cff630432c27/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:38:13-37
+751        <service
+751-->[com.google.android.gms:play-services-measurement:22.0.0] /home/mouaz/.gradle/caches/transforms-3/6a56b7111965497f6949cff630432c27/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:39:9-43:72
+752            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+752-->[com.google.android.gms:play-services-measurement:22.0.0] /home/mouaz/.gradle/caches/transforms-3/6a56b7111965497f6949cff630432c27/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:40:13-87
+753            android:enabled="true"
+753-->[com.google.android.gms:play-services-measurement:22.0.0] /home/mouaz/.gradle/caches/transforms-3/6a56b7111965497f6949cff630432c27/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:41:13-35
+754            android:exported="false"
+754-->[com.google.android.gms:play-services-measurement:22.0.0] /home/mouaz/.gradle/caches/transforms-3/6a56b7111965497f6949cff630432c27/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:42:13-37
+755            android:permission="android.permission.BIND_JOB_SERVICE" />
+755-->[com.google.android.gms:play-services-measurement:22.0.0] /home/mouaz/.gradle/caches/transforms-3/6a56b7111965497f6949cff630432c27/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:43:13-69
+756
+757        <property
+757-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/mouaz/.gradle/caches/transforms-3/7f6e82b3f9c1c80b0d76a6039ea02933/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:82:9-84:62
+758            android:name="android.adservices.AD_SERVICES_CONFIG"
+758-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/mouaz/.gradle/caches/transforms-3/7f6e82b3f9c1c80b0d76a6039ea02933/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:83:13-65
+759            android:resource="@xml/ga_ad_services_config" />
+759-->[com.google.android.gms:play-services-ads-lite:22.5.0] /home/mouaz/.gradle/caches/transforms-3/7f6e82b3f9c1c80b0d76a6039ea02933/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:84:13-59
+760
+761        <service
+761-->[com.google.firebase:firebase-sessions:1.2.3] /home/mouaz/.gradle/caches/transforms-3/47d2490cd6a5c120e998b2c29f41108f/transformed/jetified-firebase-sessions-1.2.3/AndroidManifest.xml:22:9-25:40
+762            android:name="com.google.firebase.sessions.SessionLifecycleService"
+762-->[com.google.firebase:firebase-sessions:1.2.3] /home/mouaz/.gradle/caches/transforms-3/47d2490cd6a5c120e998b2c29f41108f/transformed/jetified-firebase-sessions-1.2.3/AndroidManifest.xml:23:13-80
+763            android:enabled="true"
+763-->[com.google.firebase:firebase-sessions:1.2.3] /home/mouaz/.gradle/caches/transforms-3/47d2490cd6a5c120e998b2c29f41108f/transformed/jetified-firebase-sessions-1.2.3/AndroidManifest.xml:24:13-35
+764            android:exported="false" />
+764-->[com.google.firebase:firebase-sessions:1.2.3] /home/mouaz/.gradle/caches/transforms-3/47d2490cd6a5c120e998b2c29f41108f/transformed/jetified-firebase-sessions-1.2.3/AndroidManifest.xml:25:13-37
+765
+766        <provider
+766-->[com.google.firebase:firebase-common:21.0.0] /home/mouaz/.gradle/caches/transforms-3/22f302e64cf284841103813dc39dad2e/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+767            android:name="com.google.firebase.provider.FirebaseInitProvider"
+767-->[com.google.firebase:firebase-common:21.0.0] /home/mouaz/.gradle/caches/transforms-3/22f302e64cf284841103813dc39dad2e/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+768            android:authorities="net.sarmady.contactcarswithtabs.test.firebaseinitprovider"
+768-->[com.google.firebase:firebase-common:21.0.0] /home/mouaz/.gradle/caches/transforms-3/22f302e64cf284841103813dc39dad2e/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+769            android:directBootAware="true"
+769-->[com.google.firebase:firebase-common:21.0.0] /home/mouaz/.gradle/caches/transforms-3/22f302e64cf284841103813dc39dad2e/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+770            android:exported="false"
+770-->[com.google.firebase:firebase-common:21.0.0] /home/mouaz/.gradle/caches/transforms-3/22f302e64cf284841103813dc39dad2e/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+771            android:initOrder="100" />
+771-->[com.google.firebase:firebase-common:21.0.0] /home/mouaz/.gradle/caches/transforms-3/22f302e64cf284841103813dc39dad2e/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+772        <provider
+772-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:31:9-39:20
+773            android:name="androidx.startup.InitializationProvider"
+773-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:32:13-67
+774            android:authorities="net.sarmady.contactcarswithtabs.test.androidx-startup"
+774-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:33:13-68
+775            android:exported="false" >
+775-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:34:13-37
+776            <meta-data
+776-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:36:13-38:52
+777                android:name="androidx.work.WorkManagerInitializer"
+777-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:37:17-68
+778                android:value="androidx.startup" />
+778-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:38:17-49
+779            <meta-data
+779-->[androidx.emoji2:emoji2:1.2.0] /home/mouaz/.gradle/caches/transforms-3/e97f4f30992a557bf2ef14e90b999678/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+780                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+780-->[androidx.emoji2:emoji2:1.2.0] /home/mouaz/.gradle/caches/transforms-3/e97f4f30992a557bf2ef14e90b999678/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+781                android:value="androidx.startup" />
+781-->[androidx.emoji2:emoji2:1.2.0] /home/mouaz/.gradle/caches/transforms-3/e97f4f30992a557bf2ef14e90b999678/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+782            <meta-data
+782-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/mouaz/.gradle/caches/transforms-3/9db72eff5dfd0bac7d7943e1488d0b2a/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+783                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+783-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/mouaz/.gradle/caches/transforms-3/9db72eff5dfd0bac7d7943e1488d0b2a/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+784                android:value="androidx.startup" />
+784-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/mouaz/.gradle/caches/transforms-3/9db72eff5dfd0bac7d7943e1488d0b2a/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+785            <meta-data
+785-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mouaz/.gradle/caches/transforms-3/acb77472a4c741b9be3578054f591e38/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+786                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+786-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mouaz/.gradle/caches/transforms-3/acb77472a4c741b9be3578054f591e38/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+787                android:value="androidx.startup" />
+787-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mouaz/.gradle/caches/transforms-3/acb77472a4c741b9be3578054f591e38/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+788        </provider>
+789
+790        <service
+790-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:41:9-46:35
+791            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+791-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:42:13-88
+792            android:directBootAware="false"
+792-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:43:13-44
+793            android:enabled="@bool/enable_system_alarm_service_default"
+793-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:44:13-72
+794            android:exported="false" />
+794-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:45:13-37
+795        <service
+795-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:47:9-53:35
+796            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+796-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:48:13-84
+797            android:directBootAware="false"
+797-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:49:13-44
+798            android:enabled="@bool/enable_system_job_service_default"
+798-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:50:13-70
+799            android:exported="true"
+799-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:51:13-36
+800            android:permission="android.permission.BIND_JOB_SERVICE" />
+800-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:52:13-69
+801        <service
+801-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:54:9-59:35
+802            android:name="androidx.work.impl.foreground.SystemForegroundService"
+802-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:55:13-81
+803            android:directBootAware="false"
+803-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:56:13-44
+804            android:enabled="@bool/enable_system_foreground_service_default"
+804-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:57:13-77
+805            android:exported="false" />
+805-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:58:13-37
+806
+807        <receiver
+807-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:61:9-66:35
+808            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+808-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:62:13-88
+809            android:directBootAware="false"
+809-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:63:13-44
+810            android:enabled="true"
+810-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:64:13-35
+811            android:exported="false" />
+811-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:65:13-37
+812        <receiver
+812-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:67:9-77:20
+813            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+813-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:68:13-106
+814            android:directBootAware="false"
+814-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:69:13-44
+815            android:enabled="false"
+815-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:70:13-36
+816            android:exported="false" >
+816-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:71:13-37
+817            <intent-filter>
+817-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:73:13-76:29
+818                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+818-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:74:17-87
+818-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:74:25-84
+819                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+819-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:75:17-90
+819-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:75:25-87
+820            </intent-filter>
+821        </receiver>
+822        <receiver
+822-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:78:9-88:20
+823            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+823-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:79:13-104
+824            android:directBootAware="false"
+824-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:80:13-44
+825            android:enabled="false"
+825-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:81:13-36
+826            android:exported="false" >
+826-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:82:13-37
+827            <intent-filter>
+827-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:84:13-87:29
+828                <action android:name="android.intent.action.BATTERY_OKAY" />
+828-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:85:17-77
+828-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:85:25-74
+829                <action android:name="android.intent.action.BATTERY_LOW" />
+829-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:86:17-76
+829-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:86:25-73
+830            </intent-filter>
+831        </receiver>
+832        <receiver
+832-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:89:9-99:20
+833            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+833-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:90:13-104
+834            android:directBootAware="false"
+834-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:91:13-44
+835            android:enabled="false"
+835-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:92:13-36
+836            android:exported="false" >
+836-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:93:13-37
+837            <intent-filter>
+837-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:95:13-98:29
+838                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+838-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:96:17-83
+838-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:96:25-80
+839                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+839-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:97:17-82
+839-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:97:25-79
+840            </intent-filter>
+841        </receiver>
+842        <receiver
+842-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:100:9-109:20
+843            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+843-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:101:13-103
+844            android:directBootAware="false"
+844-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:102:13-44
+845            android:enabled="false"
+845-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:103:13-36
+846            android:exported="false" >
+846-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:104:13-37
+847            <intent-filter>
+847-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:106:13-108:29
+848                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+848-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:107:17-79
+848-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:107:25-76
+849            </intent-filter>
+850        </receiver>
+851        <receiver
+851-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:110:9-121:20
+852            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+852-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:111:13-88
+853            android:directBootAware="false"
+853-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:112:13-44
+854            android:enabled="false"
+854-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:113:13-36
+855            android:exported="false" >
+855-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:114:13-37
+856            <intent-filter>
+856-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:116:13-120:29
+857                <action android:name="android.intent.action.BOOT_COMPLETED" />
+857-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:31:17-79
+857-->[:awesome_notifications] /home/mouaz/Desktop/Currency Converter/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:31:25-76
+858                <action android:name="android.intent.action.TIME_SET" />
+858-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:118:17-73
+858-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:118:25-70
+859                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+859-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:119:17-81
+859-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:119:25-78
+860            </intent-filter>
+861        </receiver>
+862        <receiver
+862-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:122:9-131:20
+863            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+863-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:123:13-99
+864            android:directBootAware="false"
+864-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:124:13-44
+865            android:enabled="@bool/enable_system_alarm_service_default"
+865-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:125:13-72
+866            android:exported="false" >
+866-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:126:13-37
+867            <intent-filter>
+867-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:128:13-130:29
+868                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+868-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:129:17-98
+868-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:129:25-95
+869            </intent-filter>
+870        </receiver>
+871        <receiver
+871-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:132:9-142:20
+872            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+872-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:133:13-78
+873            android:directBootAware="false"
+873-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:134:13-44
+874            android:enabled="true"
+874-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:135:13-35
+875            android:exported="true"
+875-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:136:13-36
+876            android:permission="android.permission.DUMP" >
+876-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:137:13-57
+877            <intent-filter>
+877-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:139:13-141:29
+878                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+878-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:17-88
+878-->[androidx.work:work-runtime:2.7.0] /home/mouaz/.gradle/caches/transforms-3/30a7026f57119821a84f3bd0bf95d2e3/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:25-85
+879            </intent-filter>
+880        </receiver>
+881
+882        <uses-library
+882-->[androidx.window:window:1.2.0] /home/mouaz/.gradle/caches/transforms-3/c684dda41da16b2982712ed489891fc9/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+883            android:name="androidx.window.extensions"
+883-->[androidx.window:window:1.2.0] /home/mouaz/.gradle/caches/transforms-3/c684dda41da16b2982712ed489891fc9/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+884            android:required="false" />
+884-->[androidx.window:window:1.2.0] /home/mouaz/.gradle/caches/transforms-3/c684dda41da16b2982712ed489891fc9/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+885        <uses-library
+885-->[androidx.window:window:1.2.0] /home/mouaz/.gradle/caches/transforms-3/c684dda41da16b2982712ed489891fc9/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+886            android:name="androidx.window.sidecar"
+886-->[androidx.window:window:1.2.0] /home/mouaz/.gradle/caches/transforms-3/c684dda41da16b2982712ed489891fc9/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+887            android:required="false" />
+887-->[androidx.window:window:1.2.0] /home/mouaz/.gradle/caches/transforms-3/c684dda41da16b2982712ed489891fc9/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+888        <uses-library
+888-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /home/mouaz/.gradle/caches/transforms-3/b039313df23b2872d95f72d88562eb9c/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
+889            android:name="android.ext.adservices"
+889-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /home/mouaz/.gradle/caches/transforms-3/b039313df23b2872d95f72d88562eb9c/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
+890            android:required="false" />
+890-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /home/mouaz/.gradle/caches/transforms-3/b039313df23b2872d95f72d88562eb9c/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
+891
+892        <meta-data
+892-->[com.google.android.gms:play-services-basement:18.3.0] /home/mouaz/.gradle/caches/transforms-3/145e398174e3d0704f235beb727be831/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+893            android:name="com.google.android.gms.version"
+893-->[com.google.android.gms:play-services-basement:18.3.0] /home/mouaz/.gradle/caches/transforms-3/145e398174e3d0704f235beb727be831/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
+894            android:value="@integer/google_play_services_version" />
+894-->[com.google.android.gms:play-services-basement:18.3.0] /home/mouaz/.gradle/caches/transforms-3/145e398174e3d0704f235beb727be831/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+895
+896        <service
+896-->[androidx.room:room-runtime:2.5.0] /home/mouaz/.gradle/caches/transforms-3/a408bb9e2d2f090b88a38228338cc769/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
+897            android:name="androidx.room.MultiInstanceInvalidationService"
+897-->[androidx.room:room-runtime:2.5.0] /home/mouaz/.gradle/caches/transforms-3/a408bb9e2d2f090b88a38228338cc769/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
+898            android:directBootAware="true"
+898-->[androidx.room:room-runtime:2.5.0] /home/mouaz/.gradle/caches/transforms-3/a408bb9e2d2f090b88a38228338cc769/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
+899            android:exported="false" />
+899-->[androidx.room:room-runtime:2.5.0] /home/mouaz/.gradle/caches/transforms-3/a408bb9e2d2f090b88a38228338cc769/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
+900
+901        <receiver
+901-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mouaz/.gradle/caches/transforms-3/acb77472a4c741b9be3578054f591e38/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+902            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+902-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mouaz/.gradle/caches/transforms-3/acb77472a4c741b9be3578054f591e38/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+903            android:directBootAware="false"
+903-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mouaz/.gradle/caches/transforms-3/acb77472a4c741b9be3578054f591e38/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+904            android:enabled="true"
+904-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mouaz/.gradle/caches/transforms-3/acb77472a4c741b9be3578054f591e38/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+905            android:exported="true"
+905-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mouaz/.gradle/caches/transforms-3/acb77472a4c741b9be3578054f591e38/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+906            android:permission="android.permission.DUMP" >
+906-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mouaz/.gradle/caches/transforms-3/acb77472a4c741b9be3578054f591e38/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+907            <intent-filter>
+907-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mouaz/.gradle/caches/transforms-3/acb77472a4c741b9be3578054f591e38/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+908                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+908-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mouaz/.gradle/caches/transforms-3/acb77472a4c741b9be3578054f591e38/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+908-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mouaz/.gradle/caches/transforms-3/acb77472a4c741b9be3578054f591e38/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+909            </intent-filter>
+910            <intent-filter>
+910-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mouaz/.gradle/caches/transforms-3/acb77472a4c741b9be3578054f591e38/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+911                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+911-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mouaz/.gradle/caches/transforms-3/acb77472a4c741b9be3578054f591e38/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+911-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mouaz/.gradle/caches/transforms-3/acb77472a4c741b9be3578054f591e38/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+912            </intent-filter>
+913            <intent-filter>
+913-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mouaz/.gradle/caches/transforms-3/acb77472a4c741b9be3578054f591e38/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+914                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+914-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mouaz/.gradle/caches/transforms-3/acb77472a4c741b9be3578054f591e38/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+914-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mouaz/.gradle/caches/transforms-3/acb77472a4c741b9be3578054f591e38/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+915            </intent-filter>
+916            <intent-filter>
+916-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mouaz/.gradle/caches/transforms-3/acb77472a4c741b9be3578054f591e38/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+917                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+917-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mouaz/.gradle/caches/transforms-3/acb77472a4c741b9be3578054f591e38/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+917-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/mouaz/.gradle/caches/transforms-3/acb77472a4c741b9be3578054f591e38/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+918            </intent-filter>
+919        </receiver>
+920
+921        <service
+921-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /home/mouaz/.gradle/caches/transforms-3/c3823638f42138834aba6cf9458652cc/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:28:9-34:19
+922            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+922-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /home/mouaz/.gradle/caches/transforms-3/c3823638f42138834aba6cf9458652cc/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:29:13-103
+923            android:exported="false" >
+923-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /home/mouaz/.gradle/caches/transforms-3/c3823638f42138834aba6cf9458652cc/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:30:13-37
+924            <meta-data
+924-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /home/mouaz/.gradle/caches/transforms-3/c3823638f42138834aba6cf9458652cc/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:31:13-33:39
+925                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+925-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /home/mouaz/.gradle/caches/transforms-3/c3823638f42138834aba6cf9458652cc/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:32:17-94
+926                android:value="cct" />
+926-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /home/mouaz/.gradle/caches/transforms-3/c3823638f42138834aba6cf9458652cc/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:33:17-36
+927        </service>
+928        <service
+928-->[com.google.android.datatransport:transport-runtime:3.1.9] /home/mouaz/.gradle/caches/transforms-3/e8016664e0088495ea5f159c3959bc41/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:26:9-30:19
+929            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+929-->[com.google.android.datatransport:transport-runtime:3.1.9] /home/mouaz/.gradle/caches/transforms-3/e8016664e0088495ea5f159c3959bc41/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:27:13-117
+930            android:exported="false"
+930-->[com.google.android.datatransport:transport-runtime:3.1.9] /home/mouaz/.gradle/caches/transforms-3/e8016664e0088495ea5f159c3959bc41/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:28:13-37
+931            android:permission="android.permission.BIND_JOB_SERVICE" >
+931-->[com.google.android.datatransport:transport-runtime:3.1.9] /home/mouaz/.gradle/caches/transforms-3/e8016664e0088495ea5f159c3959bc41/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:29:13-69
+932        </service>
+933
+934        <receiver
+934-->[com.google.android.datatransport:transport-runtime:3.1.9] /home/mouaz/.gradle/caches/transforms-3/e8016664e0088495ea5f159c3959bc41/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:32:9-34:40
+935            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+935-->[com.google.android.datatransport:transport-runtime:3.1.9] /home/mouaz/.gradle/caches/transforms-3/e8016664e0088495ea5f159c3959bc41/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:33:13-132
+936            android:exported="false" />
+936-->[com.google.android.datatransport:transport-runtime:3.1.9] /home/mouaz/.gradle/caches/transforms-3/e8016664e0088495ea5f159c3959bc41/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:34:13-37
+937    </application>
+938
+939</manifest>

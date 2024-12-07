@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "sarmady.net:api-project-96650750796",
+  "private_key_id": "7163a03f2a8f185addc0d8179a964208f1b10e8e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCcggPSE9HR8eUL\nKZ8vYIrp4a9rt0ERiWsVBX6ILC5t/o4Mv462yKr51/ZKaKf4wLRanUWRnN0npTgK\nlnZOOYXL2e2cg6AK8EVA+yetn5qeunRz9EZqdfOuM/6NJZ/bQt0V7pbkU94H4BsZ\nyca0MkDUMc2tFvqd9ZS/WilAD/M6wLHZdBgXP3XPM/i0kCgnGh+VoZuhnQK5ac9i\nczGRMxE8PRwz0UrSOOVwik9DgmbBXsHq2fqbEV+nCC0zQpWqCkori32fAIlwvt8s\nTz/MeYYUqAbyp4bFeCk8x5L2TzBKng5rBgrLtmFqNq/eie6tzGDI1SLh35D0EBtP\n3JrYf4dvAgMBAAECggEAEdk5+lFMUncVueorP0nxTa7xRIWHpCpZzfHsdjcjrGOl\na4rFCc9kwE2CxwWccl/3sYXSE0MibY0IER0LrOweeBsIYBsau2SfYUPDSKe1CHkX\nIsou5aFCAxHm683opya+8+tbxfpSje9e59f9EzvP7OMpI55FQpJpPlFX9vhass5t\nQ7qyzkZZbI++Nq7vMZThF8rszgiUQbflWEilNPYVAkpymBQhc0OFLuYzSGTJoTCU\niPX4HwVdgWaK4DoRRzE0PL7EmqTf9M6v1ADLtkbHlw/hlvxfLvg3qlDGX3DdOAKg\ncLrKdd1uSEYBtM1PFfl5XOTD/WPhmBWQv35BTgCnsQKBgQDSXvwO/KSLqUCWfycd\nQn1XFcVa+p1HirgR50ImCg6LQATB7POTCeHhzIZaHUvY+yfwbwm9XodSorBPJuyz\nccUBryTRccsQLj/GGTXduuBOi6bS6/H8P6952N+eqZunLP2ER3m09GTZhn9aZAUm\njAAl8n++PbLkRJbfUq2TMTIzfQKBgQC+dDx8tKGja7dqe6gAh/4JNn3m4QsGQLSm\nQI1n9Bavwo7pXSxx/2JNVjdC0AhQDYUPOLsIzAEpWfjGLrE3dt3uD+ywYCAUbrpm\nmQDeTG096VbytkleBHf3KhLQdu0Odp6JnOU2gyFvlKcH1e/bixHIw+bME8Wt2egL\nqEXQf7VCWwKBgDdeWpcTNbewf1hc9Q2Fb3nZOA1fAsBOqW3E4Ssj4HoUCmyEEgO0\nSShl7UKQjWL5j6R/hR+7XoCIY0Eh7JC6M/DiiR07BwgmNBDOl9fZFKp3pRvEj/cl\nR+kZBJo858PTWpJTQZw36sc52BERXC2uEWfrcGXA1XGw/8ideSPRgfX9AoGAavUS\nRyKWKBXFQtrBJdM5umjM2g2GSHOsQDW+dCPjXb+QzMPTww2eYjpJ/I6iLHr7P+on\nN7CB8nwhtwLf6Xsq9Zgh34eMXI02x4mjsDQRoZRajSIMH+24hakuOb6gMOAy9quT\nGkMYUvaTu1XNR2lZintiMTfla1YV9/3/fzFJVUMCgYAtlpKs4C2O97+MCCfa+i3k\ntNFgpSTt4moVlyrkLI4A5Ecbe2jMcYm7VZ/4KxBveAJ3JqjhxT8p3dWqdJR6rYKE\ncKxfZ6a+pMzs3OuJYQf6alGLUU9V+sPcAc8xAw5C1NjUIjTcvRAn5LKqx6pF47EX\nZjj1ajqBT4PSf8YQ1SHEXg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "play-store-account@api-project-96650750796.sarmady.net.iam.gserviceaccount.com",
+  "client_id": "117918807072932357941",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/play-store-account%40api-project-96650750796.sarmady.net.iam.gserviceaccount.com"
+}

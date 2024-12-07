@@ -1,0 +1,104 @@
+{
+    "project_info": {
+      "project_number": "96650750796",
+      "firebase_url": "https://sarmady-net-api-project-96650750796.firebaseio.com",
+      "project_id": "sarmady.net:api-project-96650750796"
+    },
+    "client": [
+      {
+        "client_info": {
+          "mobilesdk_app_id": "1:96650750796:android:5e5bea753fd5255af43de9",
+          "android_client_info": {
+            "package_name": "com.contactcars.dealers"
+          }
+        },
+        "oauth_client": [
+          {
+            "client_id": "96650750796-ekv8af5mptem0u2voalopkr4p723fch9.apps.googleusercontent.com",
+            "client_type": 1,
+            "android_info": {
+              "package_name": "com.contactcars.dealers",
+              "certificate_hash": "6f9ac9bbb6d285bac526845fe3e21802e6413edd"
+            }
+          },
+          {
+            "client_id": "96650750796-8nkglbclbmd55iqu4rvo5iu3t7v2q7fn.apps.googleusercontent.com",
+            "client_type": 3
+          }
+        ],
+        "api_key": [
+          {
+            "current_key": "AIzaSyBkSAOryuPaqVqnaFbAEECPvvu7BRFaJbo"
+          },
+          {
+            "current_key": "AIzaSyDDtR7ZXm58Q3kMer9mLWvtbuJD5r3R0ZM"
+          }
+        ],
+        "services": {
+          "appinvite_service": {
+            "other_platform_oauth_client": [
+              {
+                "client_id": "96650750796-70pbcdmlmg9acbr12841f5hp05mcc0ts.apps.googleusercontent.com",
+                "client_type": 3
+              },
+              {
+                "client_id": "96650750796-n96d0s97se7f982g6acgmhe78mtha9lm.apps.googleusercontent.com",
+                "client_type": 2,
+                "ios_info": {
+                  "bundle_id": "sarmady.contactcars"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "client_info": {
+          "mobilesdk_app_id": "1:96650750796:android:664cb1dc1053d1de",
+          "android_client_info": {
+            "package_name": "net.sarmady.contactcarswithtabs"
+          }
+        },
+        "oauth_client": [
+          {
+            "client_id": "96650750796-m7ft5gfj72d2mthj4omqcf1mhqkncerr.apps.googleusercontent.com",
+            "client_type": 1,
+            "android_info": {
+              "package_name": "net.sarmady.contactcarswithtabs",
+              "certificate_hash": "1259dcfa317466066a5ba3e810d9f4d2b2d6bec7"
+            }
+          },
+          {
+            "client_id": "96650750796-8nkglbclbmd55iqu4rvo5iu3t7v2q7fn.apps.googleusercontent.com",
+            "client_type": 3
+          }
+        ],
+        "api_key": [
+          {
+            "current_key": "AIzaSyBkSAOryuPaqVqnaFbAEECPvvu7BRFaJbo"
+          },
+          {
+            "current_key": "AIzaSyDDtR7ZXm58Q3kMer9mLWvtbuJD5r3R0ZM"
+          }
+        ],
+        "services": {
+          "appinvite_service": {
+            "other_platform_oauth_client": [
+              {
+                "client_id": "96650750796-70pbcdmlmg9acbr12841f5hp05mcc0ts.apps.googleusercontent.com",
+                "client_type": 3
+              },
+              {
+                "client_id": "96650750796-n96d0s97se7f982g6acgmhe78mtha9lm.apps.googleusercontent.com",
+                "client_type": 2,
+                "ios_info": {
+                  "bundle_id": "sarmady.contactcars"
+                }
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "configuration_version": "1"
+  }
